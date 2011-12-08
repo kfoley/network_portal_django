@@ -1,0 +1,79 @@
+{% extends "bland.html" %}
+{% block content %}
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+
+<script type="text/javascript" src="{{ STATIC_PREFIX }}javascripts/google-code.js"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}javascripts/protovis.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}javascripts/visquick_min_1.0/vq.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}javascripts/visquick_min_1.0/vq.circvis.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}cytoband.hg18.json"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}GBM_cnv_track.json"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}GBM_link_density_track.json"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}GBM_tick_track.json"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}GBM_network.json"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}chromInfo.json"></script>
+
+<script type="text/javascript">
+        var ucsc_cancer_url = 'https://genome-cancer.soe.ucsc.edu/cgi-bin/hgHeatmap2';
+        var ucsc_genome_url = 'http://genome.ucsc.edu/cgi-bin/hgTracks';
+        var tick_listener = function(node){
+            var chr = node.chr;
+            var start = node.start;
+            var stop = node.end;
+            var label = node.value;
+            window.open(ucsc_genome_url + '?position=chr' + chr + ':' + start + '-'+ stop,'_blank')
+            if (label != null) {alert('Opening UCSC Genome Browser for Feature with label: ' + label); }
+            return false;
+        };
+
+
+</script>
+<style type="text/css">
+
+#fig {
+  width: 580px;
+  height: 740px;
+}
+
+.title, .subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  float: right;
+  color: #999;
+}
+
+.footer {
+  padding-top: 10px;
+  text-align: right;
+}
+
+</style>
+
+<div id="fig">
+  <div id="CircVis_div" style="margin:100px">
+  </div>
+</div>
+
+<script type="text/javascript" src="{{ STATIC_PREFIX }}javascripts/wedge_plot.js"></script>
+<script type="text/javascript">
+  var circle;
+  //var dataObject = wedge_plot($('CircVis_div'));
+  //circle.draw(dataObject);
+  //console.debug("test: " + dataObject);
+  //circle.draw(dataObject);
+  function onLoadDataComplete() {
+    circle = wedge_plot($('CircVis_div'));
+    //var dataObject = vq.models.CircVisData("cytoband.hg18.json");
+    //circle.draw(dataObject);
+    //console.debug("test: " + dataObject);
+  }
+  //google.setOnLoadCallback(onLoadDataComplete);
+</script>
+
+
+{% endblock %}

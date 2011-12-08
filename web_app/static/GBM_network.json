@@ -1,0 +1,4562 @@
+var network = [
+    {
+        "linkValue": 4.0780000000000003, 
+        "node1": {
+            "chr": "12", 
+            "end": 56447243, 
+            "options": "color=dorange,thickness=4.078,z=0.24521824423737126", 
+            "start": 56442383
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=4.078,z=0.24521824423737126", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 2.8100499999999999, 
+        "node1": {
+            "chr": "5", 
+            "end": 149544314, 
+            "options": "color=vlgrey,thickness=2.81005,z=-1", 
+            "start": 149526536
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 110675314, 
+            "options": "color=vlgrey,thickness=2.81005,z=-1", 
+            "start": 110675314
+        }
+    }, 
+    {
+        "linkValue": 3.8646099999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56428293, 
+            "options": "color=dorange,thickness=3.86461,z=0.258758322314541441", 
+            "start": 56425050
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=3.86461,z=0.258758322314541441", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 2.9090799999999999, 
+        "node1": {
+            "chr": "21", 
+            "end": 44571688, 
+            "options": "color=vlgrey,thickness=2.90908,z=-1", 
+            "start": 44544352
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 137167732, 
+            "options": "color=vlgrey,thickness=2.90908,z=-1", 
+            "start": 137167732
+        }
+    }, 
+    {
+        "linkValue": 4.4283999999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56496119, 
+            "options": "color=dorange,thickness=4.4284,z=0.225815192846174691", 
+            "start": 56477427
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=4.4284,z=0.225815192846174691", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 3.66181, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=3.66181,z=0.273088991509663254", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54935213, 
+            "options": "color=dorange,thickness=3.66181,z=0.273088991509663254", 
+            "start": 54890214
+        }
+    }, 
+    {
+        "linkValue": 4.3392999999999997, 
+        "node1": {
+            "chr": "12", 
+            "end": 56527014, 
+            "options": "color=dorange,thickness=4.3393,z=0.230451916207683267", 
+            "start": 56499976
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=4.3393,z=0.230451916207683267", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 2.8682799999999999, 
+        "node1": {
+            "chr": "7", 
+            "end": 35911442, 
+            "options": "color=vlgrey,thickness=2.86828,z=-1", 
+            "start": 35807151
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 54642149, 
+            "options": "color=vlgrey,thickness=2.86828,z=-1", 
+            "start": 54642149
+        }
+    }, 
+    {
+        "linkValue": 3.2144200000000001, 
+        "node1": {
+            "chr": "19", 
+            "end": 51218396, 
+            "options": "color=vlgrey,thickness=3.21442,z=-1", 
+            "start": 51214251
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32443544, 
+            "options": "color=vlgrey,thickness=3.21442,z=-1", 
+            "start": 32443544
+        }
+    }, 
+    {
+        "linkValue": 2.9829699999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 229768892, 
+            "options": "color=vlgrey,thickness=2.98297,z=-1", 
+            "start": 229731021
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 37455100, 
+            "options": "color=vlgrey,thickness=2.98297,z=-1", 
+            "start": 37455100
+        }
+    }, 
+    {
+        "linkValue": 2.8796499999999998, 
+        "node1": {
+            "chr": "3", 
+            "end": 185345793, 
+            "options": "color=dorange,thickness=2.87965,z=0.347264424496032504", 
+            "start": 185335503
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 184239066, 
+            "options": "color=dorange,thickness=2.87965,z=0.347264424496032504", 
+            "start": 182999067
+        }
+    }, 
+    {
+        "linkValue": 2.8358500000000002, 
+        "node1": {
+            "chr": "20", 
+            "end": 44798392, 
+            "options": "color=vlgrey,thickness=2.83585,z=-1", 
+            "start": 44771685
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 16973609, 
+            "options": "color=vlgrey,thickness=2.83585,z=-1", 
+            "start": 16973609
+        }
+    }, 
+    {
+        "linkValue": 2.9047299999999998, 
+        "node1": {
+            "chr": "17", 
+            "end": 11987776, 
+            "options": "color=vlgrey,thickness=2.90473,z=-1", 
+            "start": 11864859
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32443544, 
+            "options": "color=vlgrey,thickness=2.90473,z=-1", 
+            "start": 32443544
+        }
+    }, 
+    {
+        "linkValue": 3.0577000000000001, 
+        "node1": {
+            "chr": "10", 
+            "end": 131455773, 
+            "options": "color=dblue,thickness=3.0577,z=0.32704320240703797", 
+            "start": 131155443
+        }, 
+        "node2": {
+            "chr": "10", 
+            "end": 131155565, 
+            "options": "color=dblue,thickness=3.0577,z=0.32704320240703797", 
+            "start": 131155565
+        }
+    }, 
+    {
+        "linkValue": 3.0130599999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 107487289, 
+            "options": "color=vlgrey,thickness=3.01306,z=-1", 
+            "start": 107480423
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32443544, 
+            "options": "color=vlgrey,thickness=3.01306,z=-1", 
+            "start": 32443544
+        }
+    }, 
+    {
+        "linkValue": 3.93574, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=3.93574,z=0.254081824510765447", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55190213, 
+            "options": "color=dorange,thickness=3.93574,z=0.254081824510765447", 
+            "start": 54935214
+        }
+    }, 
+    {
+        "linkValue": 3.9677799999999999, 
+        "node1": {
+            "chr": "8", 
+            "end": 82359563, 
+            "options": "color=dblue,thickness=3.96778,z=0.252030102475439667", 
+            "start": 82355339
+        }, 
+        "node2": {
+            "chr": "8", 
+            "end": 82355364, 
+            "options": "color=dblue,thickness=3.96778,z=0.252030102475439667", 
+            "start": 82355364
+        }
+    }, 
+    {
+        "linkValue": 2.8267899999999999, 
+        "node1": {
+            "chr": "13", 
+            "end": 50442595, 
+            "options": "color=vlgrey,thickness=2.82679,z=-1", 
+            "start": 50381892
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32443544, 
+            "options": "color=vlgrey,thickness=2.82679,z=-1", 
+            "start": 32443544
+        }
+    }, 
+    {
+        "linkValue": 2.82775, 
+        "node1": {
+            "chr": "X", 
+            "end": 37591833, 
+            "options": "color=vlgrey,thickness=2.82775,z=-1", 
+            "start": 37583033
+        }, 
+        "node2": {
+            "chr": "5", 
+            "end": 126654456, 
+            "options": "color=vlgrey,thickness=2.82775,z=-1", 
+            "start": 126654456
+        }
+    }, 
+    {
+        "linkValue": 3.5836299999999999, 
+        "node1": {
+            "chr": "4", 
+            "end": 54625545, 
+            "options": "color=dorange,thickness=3.58363,z=0.279046664973783566", 
+            "start": 54570714
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54556413, 
+            "options": "color=dorange,thickness=3.58363,z=0.279046664973783566", 
+            "start": 54531414
+        }
+    }, 
+    {
+        "linkValue": 3.4271199999999999, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=3.42712,z=0.291790191180933262", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55315213, 
+            "options": "color=dorange,thickness=3.42712,z=0.291790191180933262", 
+            "start": 55260214
+        }
+    }, 
+    {
+        "linkValue": 2.8933, 
+        "node1": {
+            "chr": "17", 
+            "end": 8007018, 
+            "options": "color=dblue,thickness=2.8933,z=0.345626101683199115", 
+            "start": 8003189
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 43373874, 
+            "options": "color=dblue,thickness=2.8933,z=0.345626101683199115", 
+            "start": 43373874
+        }
+    }, 
+    {
+        "linkValue": 3.2475999999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 67422740, 
+            "options": "color=dorange,thickness=3.2476,z=0.307919694543663013", 
+            "start": 67366997
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67468854, 
+            "options": "color=dorange,thickness=3.2476,z=0.307919694543663013", 
+            "start": 67453855
+        }
+    }, 
+    {
+        "linkValue": 3.09775, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.09775,z=0.322814946332015172", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55250213, 
+            "options": "color=dorange,thickness=3.09775,z=0.322814946332015172", 
+            "start": 55190214
+        }
+    }, 
+    {
+        "linkValue": 5.3779000000000003, 
+        "node1": {
+            "chr": "12", 
+            "end": 56477637, 
+            "options": "color=dorange,thickness=5.3779,z=0.185946187173432009", 
+            "start": 56462794
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=5.3779,z=0.185946187173432009", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 2.9589400000000001, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=2.95894,z=0.337958863647116873", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67583854, 
+            "options": "color=dorange,thickness=2.95894,z=0.337958863647116873", 
+            "start": 67553855
+        }
+    }, 
+    {
+        "linkValue": 3.47824, 
+        "node1": {
+            "chr": "Y", 
+            "end": 13541784, 
+            "options": "color=dorange,thickness=3.47824,z=0.287501725010350062", 
+            "start": 13526092
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 24685450, 
+            "options": "color=dorange,thickness=3.47824,z=0.287501725010350062", 
+            "start": 12500451
+        }
+    }, 
+    {
+        "linkValue": 3.20764, 
+        "node1": {
+            "chr": "1", 
+            "end": 8861367, 
+            "options": "color=vlgrey,thickness=3.20764,z=-1", 
+            "start": 8843649
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 36810838, 
+            "options": "color=vlgrey,thickness=3.20764,z=-1", 
+            "start": 36810838
+        }
+    }, 
+    {
+        "linkValue": 2.8546900000000002, 
+        "node1": {
+            "chr": "1", 
+            "end": 204852527, 
+            "options": "color=vlgrey,thickness=2.85469,z=-1", 
+            "start": 204831597
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 36810838, 
+            "options": "color=vlgrey,thickness=2.85469,z=-1", 
+            "start": 36810838
+        }
+    }, 
+    {
+        "linkValue": 3.2091099999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 20860624, 
+            "options": "color=vlgrey,thickness=3.20911,z=-1", 
+            "start": 20850846
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 36810838, 
+            "options": "color=vlgrey,thickness=3.20911,z=-1", 
+            "start": 36810838
+        }
+    }, 
+    {
+        "linkValue": 4.1737000000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 67525478, 
+            "options": "color=dorange,thickness=4.1737,z=0.239595562690178978", 
+            "start": 67488237
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67583854, 
+            "options": "color=dorange,thickness=4.1737,z=0.239595562690178978", 
+            "start": 67553855
+        }
+    }, 
+    {
+        "linkValue": 3.1753, 
+        "node1": {
+            "chr": "11", 
+            "end": 65396916, 
+            "options": "color=dblue,thickness=3.1753,z=0.314930872673448178", 
+            "start": 65390487
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 12089187, 
+            "options": "color=dblue,thickness=3.1753,z=0.314930872673448178", 
+            "start": 12089187
+        }
+    }, 
+    {
+        "linkValue": 3.8235999999999999, 
+        "node1": {
+            "chr": "7", 
+            "end": 55468929, 
+            "options": "color=dorange,thickness=3.8236,z=0.261533633225232765", 
+            "start": 55400634
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55630213, 
+            "options": "color=dorange,thickness=3.8236,z=0.261533633225232765", 
+            "start": 55510214
+        }
+    }, 
+    {
+        "linkValue": 2.9260000000000002, 
+        "node1": {
+            "chr": "6_qbl_hap2", 
+            "end": 270296, 
+            "options": "color=vlgrey,thickness=2.926,z=-1", 
+            "start": 269333
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32443544, 
+            "options": "color=vlgrey,thickness=2.926,z=-1", 
+            "start": 32443544
+        }
+    }, 
+    {
+        "linkValue": 2.8045599999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 25043403, 
+            "options": "color=vlgrey,thickness=2.80456,z=-1", 
+            "start": 24944346
+        }, 
+        "node2": {
+            "chr": "5", 
+            "end": 133730487, 
+            "options": "color=vlgrey,thickness=2.80456,z=-1", 
+            "start": 133730487
+        }
+    }, 
+    {
+        "linkValue": 2.8523200000000002, 
+        "node1": {
+            "chr": "3", 
+            "end": 51990255, 
+            "options": "color=dblue,thickness=2.85232,z=0.350591798956638806", 
+            "start": 51984081
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 154035779, 
+            "options": "color=dblue,thickness=2.85232,z=0.350591798956638806", 
+            "start": 154035779
+        }
+    }, 
+    {
+        "linkValue": 3.0725500000000001, 
+        "node1": {
+            "chr": "4", 
+            "end": 56466001, 
+            "options": "color=dorange,thickness=3.07255,z=0.325462563668614018", 
+            "start": 56414572
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54526413, 
+            "options": "color=dorange,thickness=3.07255,z=0.325462563668614018", 
+            "start": 54006414
+        }
+    }, 
+    {
+        "linkValue": 3.0100600000000002, 
+        "node1": {
+            "chr": "8", 
+            "end": 22507755, 
+            "options": "color=vlgrey,thickness=3.01006,z=-1", 
+            "start": 22493928
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 62394509, 
+            "options": "color=vlgrey,thickness=3.01006,z=-1", 
+            "start": 62394509
+        }
+    }, 
+    {
+        "linkValue": 3.3503500000000002, 
+        "node1": {
+            "chr": "3", 
+            "end": 48647930, 
+            "options": "color=vlgrey,thickness=3.35035,z=-1", 
+            "start": 48638159
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32444000, 
+            "options": "color=vlgrey,thickness=3.35035,z=-1", 
+            "start": 32444000
+        }
+    }, 
+    {
+        "linkValue": 3.38551, 
+        "node1": {
+            "chr": "Y", 
+            "end": 15465242, 
+            "options": "color=dblue,thickness=3.38551,z=0.295376472082492741", 
+            "start": 15143881
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 19614073, 
+            "options": "color=dblue,thickness=3.38551,z=0.295376472082492741", 
+            "start": 19614073
+        }
+    }, 
+    {
+        "linkValue": 3.2404299999999999, 
+        "node1": {
+            "chr": "19", 
+            "end": 15700862, 
+            "options": "color=vlgrey,thickness=3.24043,z=-1", 
+            "start": 15699833
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32444000, 
+            "options": "color=vlgrey,thickness=3.24043,z=-1", 
+            "start": 32444000
+        }
+    }, 
+    {
+        "linkValue": 3.1364200000000002, 
+        "node1": {
+            "chr": "13", 
+            "end": 49265058, 
+            "options": "color=vlgrey,thickness=3.13642,z=-1", 
+            "start": 49171444
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 32444000, 
+            "options": "color=vlgrey,thickness=3.13642,z=-1", 
+            "start": 32444000
+        }
+    }, 
+    {
+        "linkValue": 3.6928000000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 21164428, 
+            "options": "color=dblue,thickness=3.6928,z=0.270797227036395147", 
+            "start": 21146998
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 19614073, 
+            "options": "color=dblue,thickness=3.6928,z=0.270797227036395147", 
+            "start": 19614073
+        }
+    }, 
+    {
+        "linkValue": 2.8656700000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 68070843, 
+            "options": "color=dorange,thickness=2.86567,z=0.348958533257493012", 
+            "start": 68039798
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67633854, 
+            "options": "color=dorange,thickness=2.86567,z=0.348958533257493012", 
+            "start": 67588855
+        }
+    }, 
+    {
+        "linkValue": 3.5208400000000002, 
+        "node1": {
+            "chr": "8", 
+            "end": 124477886, 
+            "options": "color=dblue,thickness=3.52084,z=0.284023130843775917", 
+            "start": 124401271
+        }, 
+        "node2": {
+            "chr": "8", 
+            "end": 86277476, 
+            "options": "color=dblue,thickness=3.52084,z=0.284023130843775917", 
+            "start": 86277476
+        }
+    }, 
+    {
+        "linkValue": 3.2692299999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 67525478, 
+            "options": "color=dorange,thickness=3.26923,z=0.305882424913511744", 
+            "start": 67488237
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67633854, 
+            "options": "color=dorange,thickness=3.26923,z=0.305882424913511744", 
+            "start": 67588855
+        }
+    }, 
+    {
+        "linkValue": 3.1596099999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 56401605, 
+            "options": "color=dorange,thickness=3.15961,z=0.316494757264345916", 
+            "start": 56374004
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=3.15961,z=0.316494757264345916", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 3.5372499999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=3.53725,z=0.28270549155417344", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67633854, 
+            "options": "color=dorange,thickness=3.53725,z=0.28270549155417344", 
+            "start": 67588855
+        }
+    }, 
+    {
+        "linkValue": 4.2865000000000002, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=4.2865,z=0.233290563396710603", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54820213, 
+            "options": "color=dorange,thickness=4.2865,z=0.233290563396710603", 
+            "start": 54765214
+        }
+    }, 
+    {
+        "linkValue": 2.9447199999999998, 
+        "node1": {
+            "chr": "19", 
+            "end": 51218396, 
+            "options": "color=dblue,thickness=2.94472,z=0.339590860930750632", 
+            "start": 51214251
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 2427129, 
+            "options": "color=dblue,thickness=2.94472,z=0.339590860930750632", 
+            "start": 2427129
+        }
+    }, 
+    {
+        "linkValue": 3.0624099999999999, 
+        "node1": {
+            "chr": "17", 
+            "end": 6400601, 
+            "options": "color=vlgrey,thickness=3.06241,z=-1", 
+            "start": 6295307
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 2427129, 
+            "options": "color=vlgrey,thickness=3.06241,z=-1", 
+            "start": 2427129
+        }
+    }, 
+    {
+        "linkValue": 2.91886, 
+        "node1": {
+            "chr": "1", 
+            "end": 201203027, 
+            "options": "color=vlgrey,thickness=2.91886,z=-1", 
+            "start": 201197624
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 24397865, 
+            "options": "color=vlgrey,thickness=2.91886,z=-1", 
+            "start": 24397865
+        }
+    }, 
+    {
+        "linkValue": 2.84056, 
+        "node1": {
+            "chr": "X", 
+            "end": 47941143, 
+            "options": "color=vlgrey,thickness=2.84056,z=-1", 
+            "start": 47930599
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 9420940, 
+            "options": "color=vlgrey,thickness=2.84056,z=-1", 
+            "start": 9420940
+        }
+    }, 
+    {
+        "linkValue": 2.81548, 
+        "node1": {
+            "chr": "14", 
+            "end": 101841284, 
+            "options": "color=vlgrey,thickness=2.81548,z=-1", 
+            "start": 101764930
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 38785529, 
+            "options": "color=vlgrey,thickness=2.81548,z=-1", 
+            "start": 38785529
+        }
+    }, 
+    {
+        "linkValue": 3.3000699999999998, 
+        "node1": {
+            "chr": "3", 
+            "end": 185394489, 
+            "options": "color=dorange,thickness=3.30007,z=0.303023875251131037", 
+            "start": 185386556
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 184239066, 
+            "options": "color=dorange,thickness=3.30007,z=0.303023875251131037", 
+            "start": 182999067
+        }
+    }, 
+    {
+        "linkValue": 3.83101, 
+        "node1": {
+            "chr": "12", 
+            "end": 56462591, 
+            "options": "color=dorange,thickness=3.83101,z=0.26102777074452951", 
+            "start": 56452649
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=3.83101,z=0.26102777074452951", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 2.8132600000000001, 
+        "node1": {
+            "chr": "1", 
+            "end": 202793870, 
+            "options": "color=dorange,thickness=2.81326,z=0.355459502498880303", 
+            "start": 202752133
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 203749268, 
+            "options": "color=dorange,thickness=2.81326,z=0.355459502498880303", 
+            "start": 202529269
+        }
+    }, 
+    {
+        "linkValue": 3.0456400000000001, 
+        "node1": {
+            "chr": "10", 
+            "end": 104587280, 
+            "options": "color=vlgrey,thickness=3.04564,z=-1", 
+            "start": 104580277
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 46578944, 
+            "options": "color=vlgrey,thickness=3.04564,z=-1", 
+            "start": 46578944
+        }
+    }, 
+    {
+        "linkValue": 2.9169100000000001, 
+        "node1": {
+            "chr": "11", 
+            "end": 65396916, 
+            "options": "color=vlgrey,thickness=2.91691,z=-1", 
+            "start": 65390487
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 65217723, 
+            "options": "color=vlgrey,thickness=2.91691,z=-1", 
+            "start": 65217723
+        }
+    }, 
+    {
+        "linkValue": 2.8374999999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 67422740, 
+            "options": "color=dorange,thickness=2.8375,z=0.352422907488986784", 
+            "start": 67366997
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67583854, 
+            "options": "color=dorange,thickness=2.8375,z=0.352422907488986784", 
+            "start": 67553855
+        }
+    }, 
+    {
+        "linkValue": 2.9557000000000002, 
+        "node1": {
+            "chr": "7", 
+            "end": 98801825, 
+            "options": "color=vlgrey,thickness=2.9557,z=-1", 
+            "start": 98761431
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 143779985, 
+            "options": "color=vlgrey,thickness=2.9557,z=-1", 
+            "start": 143779985
+        }
+    }, 
+    {
+        "linkValue": 3.76831, 
+        "node1": {
+            "chr": "9", 
+            "end": 21325429, 
+            "options": "color=dorange,thickness=3.76831,z=0.265370948780753176", 
+            "start": 21321017
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21698131, 
+            "options": "color=dorange,thickness=3.76831,z=0.265370948780753176", 
+            "start": 21228132
+        }
+    }, 
+    {
+        "linkValue": 2.9978799999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56432431, 
+            "options": "color=dorange,thickness=2.99788,z=0.333569055465862543", 
+            "start": 56428269
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=2.99788,z=0.333569055465862543", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 3.7008399999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=3.70084,z=0.270208925541228478", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67468854, 
+            "options": "color=dorange,thickness=3.70084,z=0.270208925541228478", 
+            "start": 67453855
+        }
+    }, 
+    {
+        "linkValue": 3.5011299999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 67525478, 
+            "options": "color=dorange,thickness=3.50113,z=0.285622070588638525", 
+            "start": 67488237
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67468854, 
+            "options": "color=dorange,thickness=3.50113,z=0.285622070588638525", 
+            "start": 67453855
+        }
+    }, 
+    {
+        "linkValue": 3.1362399999999999, 
+        "node1": {
+            "chr": "7", 
+            "end": 55468929, 
+            "options": "color=dorange,thickness=3.13624,z=0.318853148993699462", 
+            "start": 55400634
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55315213, 
+            "options": "color=dorange,thickness=3.13624,z=0.318853148993699462", 
+            "start": 55260214
+        }
+    }, 
+    {
+        "linkValue": 3.7233100000000001, 
+        "node1": {
+            "chr": "4", 
+            "end": 54625545, 
+            "options": "color=dorange,thickness=3.72331,z=0.268578227437414559", 
+            "start": 54570714
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54526413, 
+            "options": "color=dorange,thickness=3.72331,z=0.268578227437414559", 
+            "start": 54006414
+        }
+    }, 
+    {
+        "linkValue": 2.8016800000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 100646977, 
+            "options": "color=vlgrey,thickness=2.80168,z=-1", 
+            "start": 100615547
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 62930740, 
+            "options": "color=vlgrey,thickness=2.80168,z=-1", 
+            "start": 62930740
+        }
+    }, 
+    {
+        "linkValue": 3.1907199999999998, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.19072,z=0.313408885768729315", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54705213, 
+            "options": "color=dorange,thickness=3.19072,z=0.313408885768729315", 
+            "start": 54670214
+        }
+    }, 
+    {
+        "linkValue": 3.04108, 
+        "node1": {
+            "chr": "X", 
+            "end": 153368126, 
+            "options": "color=vlgrey,thickness=3.04108,z=-1", 
+            "start": 153365249
+        }, 
+        "node2": {
+            "chr": "2", 
+            "end": 163404128, 
+            "options": "color=vlgrey,thickness=3.04108,z=-1", 
+            "start": 163404128
+        }
+    }, 
+    {
+        "linkValue": 2.8852600000000002, 
+        "node1": {
+            "chr": "15", 
+            "end": 50375287, 
+            "options": "color=vlgrey,thickness=2.88526,z=-1", 
+            "start": 50271808
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 62930740, 
+            "options": "color=vlgrey,thickness=2.88526,z=-1", 
+            "start": 62930740
+        }
+    }, 
+    {
+        "linkValue": 2.9579800000000001, 
+        "node1": {
+            "chr": "2", 
+            "end": 219999705, 
+            "options": "color=vlgrey,thickness=2.95798,z=-1", 
+            "start": 219991342
+        }, 
+        "node2": {
+            "chr": "14", 
+            "end": 23633418, 
+            "options": "color=vlgrey,thickness=2.95798,z=-1", 
+            "start": 23633418
+        }
+    }, 
+    {
+        "linkValue": 3.2441800000000001, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=3.24418,z=0.308244302104075606", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21898131, 
+            "options": "color=dorange,thickness=3.24418,z=0.308244302104075606", 
+            "start": 21888132
+        }
+    }, 
+    {
+        "linkValue": 2.8092100000000002, 
+        "node1": {
+            "chr": "4", 
+            "end": 54859169, 
+            "options": "color=dorange,thickness=2.80921,z=0.355971963648143072", 
+            "start": 54790020
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54741413, 
+            "options": "color=dorange,thickness=2.80921,z=0.355971963648143072", 
+            "start": 54556414
+        }
+    }, 
+    {
+        "linkValue": 3.0773799999999998, 
+        "node1": {
+            "chr": "X", 
+            "end": 2810861, 
+            "options": "color=vlgrey,thickness=3.07738,z=-1", 
+            "start": 2756862
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 133142352, 
+            "options": "color=vlgrey,thickness=3.07738,z=-1", 
+            "start": 133142352
+        }
+    }, 
+    {
+        "linkValue": 2.9035000000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 68070843, 
+            "options": "color=dorange,thickness=2.9035,z=0.34441191665231617", 
+            "start": 68039798
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 69188854, 
+            "options": "color=dorange,thickness=2.9035,z=0.34441191665231617", 
+            "start": 68108855
+        }
+    }, 
+    {
+        "linkValue": 2.8620999999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 2794997, 
+            "options": "color=vlgrey,thickness=2.8621,z=-1", 
+            "start": 2769622
+        }, 
+        "node2": {
+            "chr": "X", 
+            "end": 148521080, 
+            "options": "color=vlgrey,thickness=2.8621,z=-1", 
+            "start": 148521080
+        }
+    }, 
+    {
+        "linkValue": 2.86924, 
+        "node1": {
+            "chr": "4", 
+            "end": 52599242, 
+            "options": "color=dorange,thickness=2.86924,z=0.348524347910945059", 
+            "start": 52581617
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54006413, 
+            "options": "color=dorange,thickness=2.86924,z=0.348524347910945059", 
+            "start": 52381414
+        }
+    }, 
+    {
+        "linkValue": 5.0709999999999997, 
+        "node1": {
+            "chr": "22", 
+            "end": 22714284, 
+            "options": "color=dorange,thickness=5.071,z=0.197199763360283968", 
+            "start": 22706138
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 22704218, 
+            "options": "color=dorange,thickness=5.071,z=0.197199763360283968", 
+            "start": 22699219
+        }
+    }, 
+    {
+        "linkValue": 2.9430399999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 21164428, 
+            "options": "color=dorange,thickness=2.94304,z=0.339784712406219419", 
+            "start": 21146998
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 6650450, 
+            "options": "color=dorange,thickness=2.94304,z=0.339784712406219419", 
+            "start": 3225451
+        }
+    }, 
+    {
+        "linkValue": 2.8502200000000002, 
+        "node1": {
+            "chr": "9", 
+            "end": 126992039, 
+            "options": "color=vlgrey,thickness=2.85022,z=-1", 
+            "start": 126948672
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 208024362, 
+            "options": "color=vlgrey,thickness=2.85022,z=-1", 
+            "start": 208024362
+        }
+    }, 
+    {
+        "linkValue": 2.8639299999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 153798948, 
+            "options": "color=vlgrey,thickness=2.86393,z=-1", 
+            "start": 153571675
+        }, 
+        "node2": {
+            "chr": "10", 
+            "end": 53129542, 
+            "options": "color=vlgrey,thickness=2.86393,z=-1", 
+            "start": 53129542
+        }
+    }, 
+    {
+        "linkValue": 2.8183600000000002, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=2.81836,z=0.354816276132218737", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21768131, 
+            "options": "color=dorange,thickness=2.81836,z=0.354816276132218737", 
+            "start": 21753132
+        }
+    }, 
+    {
+        "linkValue": 2.9419300000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 83830737, 
+            "options": "color=vlgrey,thickness=2.94193,z=-1", 
+            "start": 83798761
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 44846839, 
+            "options": "color=vlgrey,thickness=2.94193,z=-1", 
+            "start": 44846839
+        }
+    }, 
+    {
+        "linkValue": 2.9111500000000001, 
+        "node1": {
+            "chr": "9", 
+            "end": 21855969, 
+            "options": "color=dorange,thickness=2.91115,z=0.343506861549559452", 
+            "start": 21792634
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21768131, 
+            "options": "color=dorange,thickness=2.91115,z=0.343506861549559452", 
+            "start": 21753132
+        }
+    }, 
+    {
+        "linkValue": 4.6581999999999999, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=4.6582,z=0.214675196427804731", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54765213, 
+            "options": "color=dorange,thickness=4.6582,z=0.214675196427804731", 
+            "start": 54750214
+        }
+    }, 
+    {
+        "linkValue": 3.0658599999999998, 
+        "node1": {
+            "chr": "11", 
+            "end": 617173, 
+            "options": "color=vlgrey,thickness=3.06586,z=-1", 
+            "start": 616312
+        }, 
+        "node2": {
+            "chr": "10", 
+            "end": 53129542, 
+            "options": "color=vlgrey,thickness=3.06586,z=-1", 
+            "start": 53129542
+        }
+    }, 
+    {
+        "linkValue": 2.86876, 
+        "node1": {
+            "chr": "13", 
+            "end": 113916197, 
+            "options": "color=vlgrey,thickness=2.86876,z=-1", 
+            "start": 113765295
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 56844634, 
+            "options": "color=vlgrey,thickness=2.86876,z=-1", 
+            "start": 56844634
+        }
+    }, 
+    {
+        "linkValue": 2.9267500000000002, 
+        "node1": {
+            "chr": "11", 
+            "end": 65396916, 
+            "options": "color=vlgrey,thickness=2.92675,z=-1", 
+            "start": 65390487
+        }, 
+        "node2": {
+            "chr": "16", 
+            "end": 66022208, 
+            "options": "color=vlgrey,thickness=2.92675,z=-1", 
+            "start": 66022208
+        }
+    }, 
+    {
+        "linkValue": 3.0461499999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56462591, 
+            "options": "color=dorange,thickness=3.04615,z=0.328283242781872199", 
+            "start": 56452649
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=3.04615,z=0.328283242781872199", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 3.10189, 
+        "node1": {
+            "chr": "12", 
+            "end": 56527014, 
+            "options": "color=dorange,thickness=3.10189,z=0.322384094858296071", 
+            "start": 56499976
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=3.10189,z=0.322384094858296071", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 4.0795000000000003, 
+        "node1": {
+            "chr": "1", 
+            "end": 202089879, 
+            "options": "color=dorange,thickness=4.0795,z=0.245128079421497733", 
+            "start": 202031373
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 202529268, 
+            "options": "color=dorange,thickness=4.0795,z=0.245128079421497733", 
+            "start": 200659269
+        }
+    }, 
+    {
+        "linkValue": 2.8330600000000001, 
+        "node1": {
+            "chr": "3", 
+            "end": 38967056, 
+            "options": "color=vlgrey,thickness=2.83306,z=-1", 
+            "start": 38862263
+        }, 
+        "node2": {
+            "chr": "10", 
+            "end": 104603918, 
+            "options": "color=vlgrey,thickness=2.83306,z=-1", 
+            "start": 104603918
+        }
+    }, 
+    {
+        "linkValue": 2.83921, 
+        "node1": {
+            "chr": "16", 
+            "end": 11588823, 
+            "options": "color=vlgrey,thickness=2.83921,z=-1", 
+            "start": 11549082
+        }, 
+        "node2": {
+            "chr": "10", 
+            "end": 103568306, 
+            "options": "color=vlgrey,thickness=2.83921,z=-1", 
+            "start": 103568306
+        }
+    }, 
+    {
+        "linkValue": 3.9094000000000002, 
+        "node1": {
+            "chr": "22", 
+            "end": 22714284, 
+            "options": "color=dorange,thickness=3.9094,z=0.255793727937790965", 
+            "start": 22706138
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 22724218, 
+            "options": "color=dorange,thickness=3.9094,z=0.255793727937790965", 
+            "start": 22704219
+        }
+    }, 
+    {
+        "linkValue": 2.8622200000000002, 
+        "node1": {
+            "chr": "4", 
+            "end": 56466001, 
+            "options": "color=dorange,thickness=2.86222,z=0.349379153244684196", 
+            "start": 56414572
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 55191413, 
+            "options": "color=dorange,thickness=2.86222,z=0.349379153244684196", 
+            "start": 54741414
+        }
+    }, 
+    {
+        "linkValue": 2.8544800000000001, 
+        "node1": {
+            "chr": "4", 
+            "end": 68432311, 
+            "options": "color=vlgrey,thickness=2.85448,z=-1", 
+            "start": 68369188
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 4646593, 
+            "options": "color=vlgrey,thickness=2.85448,z=-1", 
+            "start": 4646593
+        }
+    }, 
+    {
+        "linkValue": 3.8890600000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 56428293, 
+            "options": "color=dorange,thickness=3.88906,z=0.257131543354949525", 
+            "start": 56425050
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=3.88906,z=0.257131543354949525", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 4.1727999999999996, 
+        "node1": {
+            "chr": "12", 
+            "end": 56401605, 
+            "options": "color=dorange,thickness=4.1728,z=0.239647239263803681", 
+            "start": 56374004
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=4.1728,z=0.239647239263803681", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 3.1851699999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 56447243, 
+            "options": "color=dorange,thickness=3.18517,z=0.313954985134231454", 
+            "start": 56442383
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=3.18517,z=0.313954985134231454", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 3.2190099999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56527014, 
+            "options": "color=dorange,thickness=3.21901,z=0.310654518003982591", 
+            "start": 56499976
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=3.21901,z=0.310654518003982591", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 2.9182899999999998, 
+        "node1": {
+            "chr": "9", 
+            "end": 27052931, 
+            "options": "color=dorange,thickness=2.91829,z=0.342666424515726676", 
+            "start": 26937309
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 26643131, 
+            "options": "color=dorange,thickness=2.91829,z=0.342666424515726676", 
+            "start": 26033132
+        }
+    }, 
+    {
+        "linkValue": 3.5916399999999999, 
+        "node1": {
+            "chr": "11", 
+            "end": 113784845, 
+            "options": "color=dblue,thickness=3.59164,z=0.278424340969584925", 
+            "start": 113776593
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 113776321, 
+            "options": "color=dblue,thickness=3.59164,z=0.278424340969584925", 
+            "start": 113776321
+        }
+    }, 
+    {
+        "linkValue": 3.2025700000000001, 
+        "node1": {
+            "chr": "20", 
+            "end": 35585504, 
+            "options": "color=dblue,thickness=3.20257,z=0.312249224841299331", 
+            "start": 35583020
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 35583164, 
+            "options": "color=dblue,thickness=3.20257,z=0.312249224841299331", 
+            "start": 35583164
+        }
+    }, 
+    {
+        "linkValue": 2.99125, 
+        "node1": {
+            "chr": "3", 
+            "end": 184122115, 
+            "options": "color=dorange,thickness=2.99125,z=0.334308399498537401", 
+            "start": 183993984
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 184239066, 
+            "options": "color=dorange,thickness=2.99125,z=0.334308399498537401", 
+            "start": 182999067
+        }
+    }, 
+    {
+        "linkValue": 3.7549299999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56462591, 
+            "options": "color=dorange,thickness=3.75493,z=0.266316549176682388", 
+            "start": 56452649
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=3.75493,z=0.266316549176682388", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 4.0423, 
+        "node1": {
+            "chr": "12", 
+            "end": 56477637, 
+            "options": "color=dorange,thickness=4.0423,z=0.247383915097840338", 
+            "start": 56462794
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=4.0423,z=0.247383915097840338", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 3.01525, 
+        "node1": {
+            "chr": "14", 
+            "end": 23753025, 
+            "options": "color=vlgrey,thickness=3.01525,z=-1", 
+            "start": 23748626
+        }, 
+        "node2": {
+            "chr": "6", 
+            "end": 160131780, 
+            "options": "color=vlgrey,thickness=3.01525,z=-1", 
+            "start": 160131780
+        }
+    }, 
+    {
+        "linkValue": 3.7498300000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 56452181, 
+            "options": "color=dorange,thickness=3.74983,z=0.26667875610361003", 
+            "start": 56448617
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=3.74983,z=0.26667875610361003", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 3.9799899999999999, 
+        "node1": {
+            "chr": "7", 
+            "end": 55468929, 
+            "options": "color=dorange,thickness=3.97999,z=0.251256912705810819", 
+            "start": 55400634
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55510213, 
+            "options": "color=dorange,thickness=3.97999,z=0.251256912705810819", 
+            "start": 55440214
+        }
+    }, 
+    {
+        "linkValue": 3.8948499999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56452181, 
+            "options": "color=dorange,thickness=3.89485,z=0.256749297148799055", 
+            "start": 56448617
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=3.89485,z=0.256749297148799055", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 3.3262, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=3.3262,z=0.300643376826408514", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67453854, 
+            "options": "color=dorange,thickness=3.3262,z=0.300643376826408514", 
+            "start": 67393855
+        }
+    }, 
+    {
+        "linkValue": 2.8046199999999999, 
+        "node1": {
+            "chr": "18", 
+            "end": 9950018, 
+            "options": "color=vlgrey,thickness=2.80462,z=-1", 
+            "start": 9903954
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 117956314, 
+            "options": "color=vlgrey,thickness=2.80462,z=-1", 
+            "start": 117956314
+        }
+    }, 
+    {
+        "linkValue": 2.96191, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=2.96191,z=0.337619981700996992", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54765213, 
+            "options": "color=dorange,thickness=2.96191,z=0.337619981700996992", 
+            "start": 54750214
+        }
+    }, 
+    {
+        "linkValue": 3.5348799999999998, 
+        "node1": {
+            "chr": "11", 
+            "end": 112742324, 
+            "options": "color=dblue,thickness=3.53488,z=0.282895034626352238", 
+            "start": 112690460
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 112690747, 
+            "options": "color=dblue,thickness=3.53488,z=0.282895034626352238", 
+            "start": 112690747
+        }
+    }, 
+    {
+        "linkValue": 3.1634799999999998, 
+        "node1": {
+            "chr": "4", 
+            "end": 55301638, 
+            "options": "color=dorange,thickness=3.16348,z=0.316107577730853364", 
+            "start": 55218851
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54531413, 
+            "options": "color=dorange,thickness=3.16348,z=0.316107577730853364", 
+            "start": 54526414
+        }
+    }, 
+    {
+        "linkValue": 2.8442500000000002, 
+        "node1": {
+            "chr": "1", 
+            "end": 150029634, 
+            "options": "color=vlgrey,thickness=2.84425,z=-1", 
+            "start": 150012579
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 127726091, 
+            "options": "color=vlgrey,thickness=2.84425,z=-1", 
+            "start": 127726091
+        }
+    }, 
+    {
+        "linkValue": 2.8369599999999999, 
+        "node1": {
+            "chr": "10", 
+            "end": 81842287, 
+            "options": "color=vlgrey,thickness=2.83696,z=-1", 
+            "start": 81828405
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 127726091, 
+            "options": "color=vlgrey,thickness=2.83696,z=-1", 
+            "start": 127726091
+        }
+    }, 
+    {
+        "linkValue": 2.8565800000000001, 
+        "node1": {
+            "chr": "X", 
+            "end": 69557498, 
+            "options": "color=vlgrey,thickness=2.85658,z=-1", 
+            "start": 69426603
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 4656972, 
+            "options": "color=vlgrey,thickness=2.85658,z=-1", 
+            "start": 4656972
+        }
+    }, 
+    {
+        "linkValue": 2.9607100000000002, 
+        "node1": {
+            "chr": "7", 
+            "end": 29520469, 
+            "options": "color=vlgrey,thickness=2.96071,z=-1", 
+            "start": 29486010
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 54904421, 
+            "options": "color=vlgrey,thickness=2.96071,z=-1", 
+            "start": 54904421
+        }
+    }, 
+    {
+        "linkValue": 2.9387799999999999, 
+        "node1": {
+            "chr": "2", 
+            "end": 20512682, 
+            "options": "color=vlgrey,thickness=2.93878,z=-1", 
+            "start": 20510315
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 7230074, 
+            "options": "color=vlgrey,thickness=2.93878,z=-1", 
+            "start": 7230074
+        }
+    }, 
+    {
+        "linkValue": 3.5611299999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=3.56113,z=0.280809742974842255", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67588854, 
+            "options": "color=dorange,thickness=3.56113,z=0.280809742974842255", 
+            "start": 67583855
+        }
+    }, 
+    {
+        "linkValue": 2.9712999999999998, 
+        "node1": {
+            "chr": "17", 
+            "end": 36834348, 
+            "options": "color=dred,thickness=2.9713,z=0.336553023928920001", 
+            "start": 36830334
+        }, 
+        "node2": {
+            "chr": "18", 
+            "end": 74034316, 
+            "options": "color=dred,thickness=2.9713,z=0.336553023928920001", 
+            "start": 73964317
+        }
+    }, 
+    {
+        "linkValue": 2.8694799999999998, 
+        "node1": {
+            "chr": "6", 
+            "end": 2730978, 
+            "options": "color=dred,thickness=2.86948,z=0.348495197736175195", 
+            "start": 2710664
+        }, 
+        "node2": {
+            "chr": "18", 
+            "end": 74034316, 
+            "options": "color=dred,thickness=2.86948,z=0.348495197736175195", 
+            "start": 73964317
+        }
+    }, 
+    {
+        "linkValue": 2.9329299999999998, 
+        "node1": {
+            "chr": "15", 
+            "end": 64584238, 
+            "options": "color=dred,thickness=2.93293,z=0.340955972355289761", 
+            "start": 64578706
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 64553854, 
+            "options": "color=dred,thickness=2.93293,z=0.340955972355289761", 
+            "start": 64273855
+        }
+    }, 
+    {
+        "linkValue": 3.1021299999999998, 
+        "node1": {
+            "chr": "14", 
+            "end": 75517845, 
+            "options": "color=vlgrey,thickness=3.10213,z=-1", 
+            "start": 75494194
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 9420940, 
+            "options": "color=vlgrey,thickness=3.10213,z=-1", 
+            "start": 9420940
+        }
+    }, 
+    {
+        "linkValue": 2.9690799999999999, 
+        "node1": {
+            "chr": "16", 
+            "end": 46976730, 
+            "options": "color=vlgrey,thickness=2.96908,z=-1", 
+            "start": 46951954
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 605519, 
+            "options": "color=vlgrey,thickness=2.96908,z=-1", 
+            "start": 605519
+        }
+    }, 
+    {
+        "linkValue": 2.9107599999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=2.91076,z=0.343552886531352636", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67393854, 
+            "options": "color=dorange,thickness=2.91076,z=0.343552886531352636", 
+            "start": 67358855
+        }
+    }, 
+    {
+        "linkValue": 3.6948699999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56477637, 
+            "options": "color=dorange,thickness=3.69487,z=0.270645516621694403", 
+            "start": 56462794
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=3.69487,z=0.270645516621694403", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 3.1958500000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 2794997, 
+            "options": "color=vlgrey,thickness=3.19585,z=-1", 
+            "start": 2769622
+        }, 
+        "node2": {
+            "chr": "X", 
+            "end": 48915243, 
+            "options": "color=vlgrey,thickness=3.19585,z=-1", 
+            "start": 48915243
+        }
+    }, 
+    {
+        "linkValue": 2.9433400000000001, 
+        "node1": {
+            "chr": "11", 
+            "end": 56951629, 
+            "options": "color=vlgrey,thickness=2.94334,z=-1", 
+            "start": 56931002
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 36783033, 
+            "options": "color=vlgrey,thickness=2.94334,z=-1", 
+            "start": 36783033
+        }
+    }, 
+    {
+        "linkValue": 3.1470400000000001, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dblue,thickness=3.14704,z=0.317758909959835274", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21995563, 
+            "options": "color=dblue,thickness=3.14704,z=0.317758909959835274", 
+            "start": 21995563
+        }
+    }, 
+    {
+        "linkValue": 3.5151400000000002, 
+        "node1": {
+            "chr": "3", 
+            "end": 184300059, 
+            "options": "color=dorange,thickness=3.51514,z=0.284483690550020767", 
+            "start": 184215699
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 186169066, 
+            "options": "color=dorange,thickness=3.51514,z=0.284483690550020767", 
+            "start": 184239067
+        }
+    }, 
+    {
+        "linkValue": 2.8521999999999998, 
+        "node1": {
+            "chr": "12", 
+            "end": 56452181, 
+            "options": "color=dorange,thickness=2.8522,z=0.350606549330341491", 
+            "start": 56448617
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=2.8522,z=0.350606549330341491", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 2.9733999999999998, 
+        "node1": {
+            "chr": "3", 
+            "end": 136461995, 
+            "options": "color=vlgrey,thickness=2.9734,z=-1", 
+            "start": 135996788
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 19619151, 
+            "options": "color=vlgrey,thickness=2.9734,z=-1", 
+            "start": 19619151
+        }
+    }, 
+    {
+        "linkValue": 4.8258999999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56527014, 
+            "options": "color=dorange,thickness=4.8259,z=0.207215234464037796", 
+            "start": 56499976
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=4.8259,z=0.207215234464037796", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 4.4629000000000003, 
+        "node1": {
+            "chr": "7", 
+            "end": 55468929, 
+            "options": "color=dorange,thickness=4.4629,z=0.224069551188688969", 
+            "start": 55400634
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55440213, 
+            "options": "color=dorange,thickness=4.4629,z=0.224069551188688969", 
+            "start": 55350214
+        }
+    }, 
+    {
+        "linkValue": 4.7775999999999996, 
+        "node1": {
+            "chr": "12", 
+            "end": 56428293, 
+            "options": "color=dorange,thickness=4.7776,z=0.209310113864701942", 
+            "start": 56425050
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=4.7776,z=0.209310113864701942", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 4.8139000000000003, 
+        "node1": {
+            "chr": "12", 
+            "end": 56432431, 
+            "options": "color=dorange,thickness=4.8139,z=0.207731776729886371", 
+            "start": 56428269
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=4.8139,z=0.207731776729886371", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 3.9693399999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56401605, 
+            "options": "color=dorange,thickness=3.96934,z=0.251931051509822792", 
+            "start": 56374004
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=3.96934,z=0.251931051509822792", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 4.2175000000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 56452181, 
+            "options": "color=dorange,thickness=4.2175,z=0.237107291049199763", 
+            "start": 56448617
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=4.2175,z=0.237107291049199763", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 3.0954700000000002, 
+        "node1": {
+            "chr": "13", 
+            "end": 19145598, 
+            "options": "color=dred,thickness=3.09547,z=0.323052718973209238", 
+            "start": 19105787
+        }, 
+        "node2": {
+            "chr": "18", 
+            "end": 74584316, 
+            "options": "color=dred,thickness=3.09547,z=0.323052718973209238", 
+            "start": 74114317
+        }
+    }, 
+    {
+        "linkValue": 2.9921500000000001, 
+        "node1": {
+            "chr": "20", 
+            "end": 61837938, 
+            "options": "color=vlgrey,thickness=2.99215,z=-1", 
+            "start": 61809834
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 160798143, 
+            "options": "color=vlgrey,thickness=2.99215,z=-1", 
+            "start": 160798143
+        }
+    }, 
+    {
+        "linkValue": 3.0720399999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56477637, 
+            "options": "color=dorange,thickness=3.07204,z=0.32551659483600474", 
+            "start": 56462794
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56768854, 
+            "options": "color=dorange,thickness=3.07204,z=0.32551659483600474", 
+            "start": 56588855
+        }
+    }, 
+    {
+        "linkValue": 3.2505099999999998, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=3.25051,z=0.307644031244327813", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21843131, 
+            "options": "color=dorange,thickness=3.25051,z=0.307644031244327813", 
+            "start": 21818132
+        }
+    }, 
+    {
+        "linkValue": 3.0159699999999998, 
+        "node1": {
+            "chr": "9", 
+            "end": 21855969, 
+            "options": "color=dorange,thickness=3.01597,z=0.331568284830419401", 
+            "start": 21792634
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21843131, 
+            "options": "color=dorange,thickness=3.01597,z=0.331568284830419401", 
+            "start": 21818132
+        }
+    }, 
+    {
+        "linkValue": 2.92198, 
+        "node1": {
+            "chr": "17", 
+            "end": 53700877, 
+            "options": "color=dred,thickness=2.92198,z=0.342233690853462378", 
+            "start": 53670785
+        }, 
+        "node2": {
+            "chr": "18", 
+            "end": 74584316, 
+            "options": "color=dred,thickness=2.92198,z=0.342233690853462378", 
+            "start": 74114317
+        }
+    }, 
+    {
+        "linkValue": 2.90185, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=2.90185,z=0.344607750228302635", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21818131, 
+            "options": "color=dorange,thickness=2.90185,z=0.344607750228302635", 
+            "start": 21793132
+        }
+    }, 
+    {
+        "linkValue": 2.93323, 
+        "node1": {
+            "chr": "5", 
+            "end": 131637044, 
+            "options": "color=dblue,thickness=2.93323,z=0.340921100629681273", 
+            "start": 131621249
+        }, 
+        "node2": {
+            "chr": "5", 
+            "end": 131621711, 
+            "options": "color=dblue,thickness=2.93323,z=0.340921100629681273", 
+            "start": 131621711
+        }
+    }, 
+    {
+        "linkValue": 2.8952800000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 7309586, 
+            "options": "color=vlgrey,thickness=2.89528,z=-1", 
+            "start": 7202012
+        }, 
+        "node2": {
+            "chr": "6", 
+            "end": 71333361, 
+            "options": "color=vlgrey,thickness=2.89528,z=-1", 
+            "start": 71333361
+        }
+    }, 
+    {
+        "linkValue": 3.1166499999999999, 
+        "node1": {
+            "chr": "2", 
+            "end": 231118561, 
+            "options": "color=dblue,thickness=3.11665,z=0.320857330787865176", 
+            "start": 230989114
+        }, 
+        "node2": {
+            "chr": "2", 
+            "end": 230988942, 
+            "options": "color=dblue,thickness=3.11665,z=0.320857330787865176", 
+            "start": 230988942
+        }
+    }, 
+    {
+        "linkValue": 2.86111, 
+        "node1": {
+            "chr": "11", 
+            "end": 75532930, 
+            "options": "color=vlgrey,thickness=2.86111,z=-1", 
+            "start": 75203859
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 42619064, 
+            "options": "color=vlgrey,thickness=2.86111,z=-1", 
+            "start": 42619064
+        }
+    }, 
+    {
+        "linkValue": 2.8481800000000002, 
+        "node1": {
+            "chr": "8", 
+            "end": 27686089, 
+            "options": "color=vlgrey,thickness=2.84818,z=-1", 
+            "start": 27646751
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 54904481, 
+            "options": "color=vlgrey,thickness=2.84818,z=-1", 
+            "start": 54904481
+        }
+    }, 
+    {
+        "linkValue": 3.1527099999999999, 
+        "node1": {
+            "chr": "14", 
+            "end": 85164023, 
+            "options": "color=vlgrey,thickness=3.15271,z=-1", 
+            "start": 85066240
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 131974492, 
+            "options": "color=vlgrey,thickness=3.15271,z=-1", 
+            "start": 131974492
+        }
+    }, 
+    {
+        "linkValue": 4.4035000000000002, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dblue,thickness=4.4035,z=0.227092085840808448", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21958372, 
+            "options": "color=dblue,thickness=4.4035,z=0.227092085840808448", 
+            "start": 21958372
+        }
+    }, 
+    {
+        "linkValue": 3.7080700000000002, 
+        "node1": {
+            "chr": "13", 
+            "end": 74954251, 
+            "options": "color=vlgrey,thickness=3.70807,z=-1", 
+            "start": 74756809
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 7230074, 
+            "options": "color=vlgrey,thickness=3.70807,z=-1", 
+            "start": 7230074
+        }
+    }, 
+    {
+        "linkValue": 3.0368499999999998, 
+        "node1": {
+            "chr": "9", 
+            "end": 133389014, 
+            "options": "color=vlgrey,thickness=3.03685,z=-1", 
+            "start": 133368109
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 144090671, 
+            "options": "color=vlgrey,thickness=3.03685,z=-1", 
+            "start": 144090671
+        }
+    }, 
+    {
+        "linkValue": 3.3081399999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56527014, 
+            "options": "color=dorange,thickness=3.30814,z=0.302284667517094198", 
+            "start": 56499976
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56768854, 
+            "options": "color=dorange,thickness=3.30814,z=0.302284667517094198", 
+            "start": 56588855
+        }
+    }, 
+    {
+        "linkValue": 3.1581999999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 2794997, 
+            "options": "color=dorange,thickness=3.1582,z=0.316636058514343613", 
+            "start": 2769622
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 6650450, 
+            "options": "color=dorange,thickness=3.1582,z=0.316636058514343613", 
+            "start": 3225451
+        }
+    }, 
+    {
+        "linkValue": 2.9874399999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 13541784, 
+            "options": "color=dblue,thickness=2.98744,z=0.334734756179203599", 
+            "start": 13526092
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 19614073, 
+            "options": "color=dblue,thickness=2.98744,z=0.334734756179203599", 
+            "start": 19614073
+        }
+    }, 
+    {
+        "linkValue": 2.9092600000000002, 
+        "node1": {
+            "chr": "10", 
+            "end": 99042403, 
+            "options": "color=vlgrey,thickness=2.90926,z=-1", 
+            "start": 98971919
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 43874471, 
+            "options": "color=vlgrey,thickness=2.90926,z=-1", 
+            "start": 43874471
+        }
+    }, 
+    {
+        "linkValue": 3.3957099999999998, 
+        "node1": {
+            "chr": "6", 
+            "end": 46915478, 
+            "options": "color=vlgrey,thickness=3.39571,z=-1", 
+            "start": 46869052
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 43874471, 
+            "options": "color=vlgrey,thickness=3.39571,z=-1", 
+            "start": 43874471
+        }
+    }, 
+    {
+        "linkValue": 3.5469400000000002, 
+        "node1": {
+            "chr": "19", 
+            "end": 1763199, 
+            "options": "color=dred,thickness=3.54694,z=0.281933159286596334", 
+            "start": 1733075
+        }, 
+        "node2": {
+            "chr": "18", 
+            "end": 74034316, 
+            "options": "color=dred,thickness=3.54694,z=0.281933159286596334", 
+            "start": 73964317
+        }
+    }, 
+    {
+        "linkValue": 2.9678200000000001, 
+        "node1": {
+            "chr": "20", 
+            "end": 44798392, 
+            "options": "color=vlgrey,thickness=2.96782,z=-1", 
+            "start": 44771685
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 11646825, 
+            "options": "color=vlgrey,thickness=2.96782,z=-1", 
+            "start": 11646825
+        }
+    }, 
+    {
+        "linkValue": 3.2495799999999999, 
+        "node1": {
+            "chr": "10", 
+            "end": 103817783, 
+            "options": "color=vlgrey,thickness=3.24958,z=-1", 
+            "start": 103815136
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 56844634, 
+            "options": "color=vlgrey,thickness=3.24958,z=-1", 
+            "start": 56844634
+        }
+    }, 
+    {
+        "linkValue": 2.89642, 
+        "node1": {
+            "chr": "18", 
+            "end": 45373276, 
+            "options": "color=vlgrey,thickness=2.89642,z=-1", 
+            "start": 45342424
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 43874471, 
+            "options": "color=vlgrey,thickness=2.89642,z=-1", 
+            "start": 43874471
+        }
+    }, 
+    {
+        "linkValue": 2.89777, 
+        "node1": {
+            "chr": "17", 
+            "end": 7531588, 
+            "options": "color=vlgrey,thickness=2.89777,z=-1", 
+            "start": 7512444
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 131974492, 
+            "options": "color=vlgrey,thickness=2.89777,z=-1", 
+            "start": 131974492
+        }
+    }, 
+    {
+        "linkValue": 2.8834300000000002, 
+        "node1": {
+            "chr": "2", 
+            "end": 216654784, 
+            "options": "color=vlgrey,thickness=2.88343,z=-1", 
+            "start": 216611356
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 118799545, 
+            "options": "color=vlgrey,thickness=2.88343,z=-1", 
+            "start": 118799545
+        }
+    }, 
+    {
+        "linkValue": 2.9139699999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 21164428, 
+            "options": "color=dorange,thickness=2.91397,z=0.343174432132108429", 
+            "start": 21146998
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 10515450, 
+            "options": "color=dorange,thickness=2.91397,z=0.343174432132108429", 
+            "start": 10375451
+        }
+    }, 
+    {
+        "linkValue": 2.9654500000000001, 
+        "node1": {
+            "chr": "19", 
+            "end": 44567377, 
+            "options": "color=dblue,thickness=2.96545,z=0.337216948523832808", 
+            "start": 44524947
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 50110257, 
+            "options": "color=dblue,thickness=2.96545,z=0.337216948523832808", 
+            "start": 50110257
+        }
+    }, 
+    {
+        "linkValue": 2.8464399999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 10364248, 
+            "options": "color=vlgrey,thickness=2.84644,z=-1", 
+            "start": 10193350
+        }, 
+        "node2": {
+            "chr": "17", 
+            "end": 44846839, 
+            "options": "color=vlgrey,thickness=2.84644,z=-1", 
+            "start": 44846839
+        }
+    }, 
+    {
+        "linkValue": 3.1021299999999998, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dblue,thickness=3.10213,z=0.322359153226976303", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21995995, 
+            "options": "color=dblue,thickness=3.10213,z=0.322359153226976303", 
+            "start": 21995995
+        }
+    }, 
+    {
+        "linkValue": 3.2696499999999999, 
+        "node1": {
+            "chr": "4", 
+            "end": 54625545, 
+            "options": "color=dorange,thickness=3.26965,z=0.305843133057055036", 
+            "start": 54570714
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 55456413, 
+            "options": "color=dorange,thickness=3.26965,z=0.305843133057055036", 
+            "start": 55191414
+        }
+    }, 
+    {
+        "linkValue": 3.3576100000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 67446120, 
+            "options": "color=dorange,thickness=3.35761,z=0.297830897572976016", 
+            "start": 67426202
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67553854, 
+            "options": "color=dorange,thickness=3.35761,z=0.297830897572976016", 
+            "start": 67468855
+        }
+    }, 
+    {
+        "linkValue": 3.0602800000000001, 
+        "node1": {
+            "chr": "9", 
+            "end": 21325429, 
+            "options": "color=dorange,thickness=3.06028,z=0.326767485328139909", 
+            "start": 21321017
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21228131, 
+            "options": "color=dorange,thickness=3.06028,z=0.326767485328139909", 
+            "start": 21123132
+        }
+    }, 
+    {
+        "linkValue": 3.0842499999999999, 
+        "node1": {
+            "chr": "8", 
+            "end": 144762927, 
+            "options": "color=vlgrey,thickness=3.08425,z=-1", 
+            "start": 144757225
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 42619064, 
+            "options": "color=vlgrey,thickness=3.08425,z=-1", 
+            "start": 42619064
+        }
+    }, 
+    {
+        "linkValue": 3.15577, 
+        "node1": {
+            "chr": "16", 
+            "end": 57221251, 
+            "options": "color=vlgrey,thickness=3.15577,z=-1", 
+            "start": 57111355
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 63679094, 
+            "options": "color=vlgrey,thickness=3.15577,z=-1", 
+            "start": 63679094
+        }
+    }, 
+    {
+        "linkValue": 2.8179699999999999, 
+        "node1": {
+            "chr": "6", 
+            "end": 137155349, 
+            "options": "color=vlgrey,thickness=2.81797,z=-1", 
+            "start": 136919879
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 68573027, 
+            "options": "color=vlgrey,thickness=2.81797,z=-1", 
+            "start": 68573027
+        }
+    }, 
+    {
+        "linkValue": 2.9797600000000002, 
+        "node1": {
+            "chr": "14", 
+            "end": 21037159, 
+            "options": "color=dorange,thickness=2.97976,z=0.335597497785056515", 
+            "start": 21015174
+        }, 
+        "node2": {
+            "chr": "14", 
+            "end": 40699473, 
+            "options": "color=dorange,thickness=2.97976,z=0.335597497785056515", 
+            "start": 19494474
+        }
+    }, 
+    {
+        "linkValue": 2.9023599999999998, 
+        "node1": {
+            "chr": "14", 
+            "end": 79747596, 
+            "options": "color=vlgrey,thickness=2.90236,z=-1", 
+            "start": 79733621
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 109838412, 
+            "options": "color=vlgrey,thickness=2.90236,z=-1", 
+            "start": 109838412
+        }
+    }, 
+    {
+        "linkValue": 3.2856700000000001, 
+        "node1": {
+            "chr": "11", 
+            "end": 6298316, 
+            "options": "color=dblue,thickness=3.28567,z=0.304351928221641248", 
+            "start": 6296751
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 6298471, 
+            "options": "color=dblue,thickness=3.28567,z=0.304351928221641248", 
+            "start": 6298471
+        }
+    }, 
+    {
+        "linkValue": 3.00712, 
+        "node1": {
+            "chr": "Y", 
+            "end": 14101944, 
+            "options": "color=dorange,thickness=3.00712,z=0.332544095347043018", 
+            "start": 13918782
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 10375450, 
+            "options": "color=dorange,thickness=3.00712,z=0.332544095347043018", 
+            "start": 6695451
+        }
+    }, 
+    {
+        "linkValue": 3.8013699999999999, 
+        "node1": {
+            "chr": "9", 
+            "end": 20612514, 
+            "options": "color=dorange,thickness=3.80137,z=0.263063053583313384", 
+            "start": 20334967
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21063131, 
+            "options": "color=dorange,thickness=3.80137,z=0.263063053583313384", 
+            "start": 19508132
+        }
+    }, 
+    {
+        "linkValue": 3.00298, 
+        "node1": {
+            "chr": "Y", 
+            "end": 21164428, 
+            "options": "color=dorange,thickness=3.00298,z=0.333002550799539124", 
+            "start": 21146998
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 10375450, 
+            "options": "color=dorange,thickness=3.00298,z=0.333002550799539124", 
+            "start": 6695451
+        }
+    }, 
+    {
+        "linkValue": 3.1679200000000001, 
+        "node1": {
+            "chr": "12", 
+            "end": 56432431, 
+            "options": "color=dorange,thickness=3.16792,z=0.315664536983257153", 
+            "start": 56428269
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56363854, 
+            "options": "color=dorange,thickness=3.16792,z=0.315664536983257153", 
+            "start": 56343855
+        }
+    }, 
+    {
+        "linkValue": 3.1006, 
+        "node1": {
+            "chr": "12", 
+            "end": 56401605, 
+            "options": "color=dorange,thickness=3.1006,z=0.322518222279558795", 
+            "start": 56374004
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56363854, 
+            "options": "color=dorange,thickness=3.1006,z=0.322518222279558795", 
+            "start": 56343855
+        }
+    }, 
+    {
+        "linkValue": 2.93668, 
+        "node1": {
+            "chr": "6", 
+            "end": 44341503, 
+            "options": "color=vlgrey,thickness=2.93668,z=-1", 
+            "start": 44333880
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 525526, 
+            "options": "color=vlgrey,thickness=2.93668,z=-1", 
+            "start": 525526
+        }
+    }, 
+    {
+        "linkValue": 2.9890599999999998, 
+        "node1": {
+            "chr": "11", 
+            "end": 65396916, 
+            "options": "color=dblue,thickness=2.98906,z=0.334553337838651616", 
+            "start": 65390487
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 122259187, 
+            "options": "color=dblue,thickness=2.98906,z=0.334553337838651616", 
+            "start": 122259187
+        }
+    }, 
+    {
+        "linkValue": 2.8970199999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56283477, 
+            "options": "color=dorange,thickness=2.89702,z=0.345182290767754451", 
+            "start": 56271208
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56363854, 
+            "options": "color=dorange,thickness=2.89702,z=0.345182290767754451", 
+            "start": 56343855
+        }
+    }, 
+    {
+        "linkValue": 3.1867899999999998, 
+        "node1": {
+            "chr": "17", 
+            "end": 58877454, 
+            "options": "color=vlgrey,thickness=3.18679,z=-1", 
+            "start": 58863396
+        }, 
+        "node2": {
+            "chr": "15", 
+            "end": 98091028, 
+            "options": "color=vlgrey,thickness=3.18679,z=-1", 
+            "start": 98091028
+        }
+    }, 
+    {
+        "linkValue": 3.3968500000000001, 
+        "node1": {
+            "chr": "14", 
+            "end": 95899431, 
+            "options": "color=vlgrey,thickness=3.39685,z=-1", 
+            "start": 95817347
+        }, 
+        "node2": {
+            "chr": "6", 
+            "end": 7052951, 
+            "options": "color=vlgrey,thickness=3.39685,z=-1", 
+            "start": 7052951
+        }
+    }, 
+    {
+        "linkValue": 2.9380600000000001, 
+        "node1": {
+            "chr": "1", 
+            "end": 202793870, 
+            "options": "color=dorange,thickness=2.93806,z=0.340360646140650633", 
+            "start": 202752133
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 202529268, 
+            "options": "color=dorange,thickness=2.93806,z=0.340360646140650633", 
+            "start": 200659269
+        }
+    }, 
+    {
+        "linkValue": 3.2678799999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 202387930, 
+            "options": "color=dorange,thickness=3.26788,z=0.3060087885724078", 
+            "start": 202366812
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 202529268, 
+            "options": "color=dorange,thickness=3.26788,z=0.3060087885724078", 
+            "start": 200659269
+        }
+    }, 
+    {
+        "linkValue": 3.32707, 
+        "node1": {
+            "chr": "1", 
+            "end": 202106903, 
+            "options": "color=dorange,thickness=3.32707,z=0.300564761186268999", 
+            "start": 202097362
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 202529268, 
+            "options": "color=dorange,thickness=3.32707,z=0.300564761186268999", 
+            "start": 200659269
+        }
+    }, 
+    {
+        "linkValue": 2.8816000000000002, 
+        "node1": {
+            "chr": "9", 
+            "end": 21855969, 
+            "options": "color=dorange,thickness=2.8816,z=0.347029428095502499", 
+            "start": 21792634
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21818131, 
+            "options": "color=dorange,thickness=2.8816,z=0.347029428095502499", 
+            "start": 21793132
+        }
+    }, 
+    {
+        "linkValue": 2.8698700000000001, 
+        "node1": {
+            "chr": "12", 
+            "end": 56401605, 
+            "options": "color=dorange,thickness=2.86987,z=0.348447839100725817", 
+            "start": 56374004
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56768854, 
+            "options": "color=dorange,thickness=2.86987,z=0.348447839100725817", 
+            "start": 56588855
+        }
+    }, 
+    {
+        "linkValue": 3.23935, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=3.23935,z=0.30870390664793863", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21753131, 
+            "options": "color=dorange,thickness=3.23935,z=0.30870390664793863", 
+            "start": 21733132
+        }
+    }, 
+    {
+        "linkValue": 2.97079, 
+        "node1": {
+            "chr": "12", 
+            "end": 56432431, 
+            "options": "color=dorange,thickness=2.97079,z=0.336610800494144655", 
+            "start": 56428269
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56768854, 
+            "options": "color=dorange,thickness=2.97079,z=0.336610800494144655", 
+            "start": 56588855
+        }
+    }, 
+    {
+        "linkValue": 3.34111, 
+        "node1": {
+            "chr": "1", 
+            "end": 201979832, 
+            "options": "color=dorange,thickness=3.34111,z=0.299301729066088815", 
+            "start": 201862550
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 202529268, 
+            "options": "color=dorange,thickness=3.34111,z=0.299301729066088815", 
+            "start": 200659269
+        }
+    }, 
+    {
+        "linkValue": 2.9221599999999999, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=2.92216,z=0.342212609850247762", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21933131, 
+            "options": "color=dorange,thickness=2.92216,z=0.342212609850247762", 
+            "start": 21898132
+        }
+    }, 
+    {
+        "linkValue": 3.3485200000000002, 
+        "node1": {
+            "chr": "1", 
+            "end": 202595667, 
+            "options": "color=dorange,thickness=3.34852,z=0.298639398898617897", 
+            "start": 202454603
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 202529268, 
+            "options": "color=dorange,thickness=3.34852,z=0.298639398898617897", 
+            "start": 200659269
+        }
+    }, 
+    {
+        "linkValue": 2.8452999999999999, 
+        "node1": {
+            "chr": "3", 
+            "end": 185384573, 
+            "options": "color=dorange,thickness=2.8453,z=0.351456788387867712", 
+            "start": 185375327
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 184239066, 
+            "options": "color=dorange,thickness=2.8453,z=0.351456788387867712", 
+            "start": 182999067
+        }
+    }, 
+    {
+        "linkValue": 2.8460200000000002, 
+        "node1": {
+            "chr": "19", 
+            "end": 49955141, 
+            "options": "color=vlgrey,thickness=2.84602,z=-1", 
+            "start": 49943817
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 13045174, 
+            "options": "color=vlgrey,thickness=2.84602,z=-1", 
+            "start": 13045174
+        }
+    }, 
+    {
+        "linkValue": 3.1636899999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 13541784, 
+            "options": "color=vlgrey,thickness=3.16369,z=-1", 
+            "start": 13526092
+        }, 
+        "node2": {
+            "chr": "X", 
+            "end": 48219666, 
+            "options": "color=vlgrey,thickness=3.16369,z=-1", 
+            "start": 48219666
+        }
+    }, 
+    {
+        "linkValue": 3.8102800000000001, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.81028,z=0.262447904091037929", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54750213, 
+            "options": "color=dorange,thickness=3.81028,z=0.262447904091037929", 
+            "start": 54705214
+        }
+    }, 
+    {
+        "linkValue": 3.4010799999999999, 
+        "node1": {
+            "chr": "4", 
+            "end": 54625545, 
+            "options": "color=dorange,thickness=3.40108,z=0.294024251120232397", 
+            "start": 54570714
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54531413, 
+            "options": "color=dorange,thickness=3.40108,z=0.294024251120232397", 
+            "start": 54526414
+        }
+    }, 
+    {
+        "linkValue": 3.1023999999999998, 
+        "node1": {
+            "chr": "22", 
+            "end": 23354972, 
+            "options": "color=vlgrey,thickness=3.1024,z=-1", 
+            "start": 23329123
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 107843372, 
+            "options": "color=vlgrey,thickness=3.1024,z=-1", 
+            "start": 107843372
+        }
+    }, 
+    {
+        "linkValue": 2.8615599999999999, 
+        "node1": {
+            "chr": "13", 
+            "end": 49577434, 
+            "options": "color=vlgrey,thickness=2.86156,z=-1", 
+            "start": 49554414
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 2427129, 
+            "options": "color=vlgrey,thickness=2.86156,z=-1", 
+            "start": 2427129
+        }
+    }, 
+    {
+        "linkValue": 3.04657, 
+        "node1": {
+            "chr": "11", 
+            "end": 56951629, 
+            "options": "color=vlgrey,thickness=3.04657,z=-1", 
+            "start": 56931002
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 996016, 
+            "options": "color=vlgrey,thickness=3.04657,z=-1", 
+            "start": 996016
+        }
+    }, 
+    {
+        "linkValue": 3.5425300000000002, 
+        "node1": {
+            "chr": "11", 
+            "end": 113784845, 
+            "options": "color=dblue,thickness=3.54253,z=0.282284130268480436", 
+            "start": 113776593
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 113776289, 
+            "options": "color=dblue,thickness=3.54253,z=0.282284130268480436", 
+            "start": 113776289
+        }
+    }, 
+    {
+        "linkValue": 3.5075500000000002, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.50755,z=0.285099285826289005", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54835213, 
+            "options": "color=dorange,thickness=3.50755,z=0.285099285826289005", 
+            "start": 54820214
+        }
+    }, 
+    {
+        "linkValue": 3.3883299999999998, 
+        "node1": {
+            "chr": "3", 
+            "end": 140741361, 
+            "options": "color=vlgrey,thickness=3.38833,z=-1", 
+            "start": 140727937
+        }, 
+        "node2": {
+            "chr": "5", 
+            "end": 132177303, 
+            "options": "color=vlgrey,thickness=3.38833,z=-1", 
+            "start": 132177303
+        }
+    }, 
+    {
+        "linkValue": 3.5253700000000001, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=3.52537,z=0.283658169213444263", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54835213, 
+            "options": "color=dorange,thickness=3.52537,z=0.283658169213444263", 
+            "start": 54820214
+        }
+    }, 
+    {
+        "linkValue": 3.4332099999999999, 
+        "node1": {
+            "chr": "19", 
+            "end": 53661179, 
+            "options": "color=dblue,thickness=3.43321,z=0.291272599112783663", 
+            "start": 53656317
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 54682803, 
+            "options": "color=dblue,thickness=3.43321,z=0.291272599112783663", 
+            "start": 54682803
+        }
+    }, 
+    {
+        "linkValue": 3.40612, 
+        "node1": {
+            "chr": "12", 
+            "end": 56477637, 
+            "options": "color=dorange,thickness=3.40612,z=0.293589186523081982", 
+            "start": 56462794
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56383854, 
+            "options": "color=dorange,thickness=3.40612,z=0.293589186523081982", 
+            "start": 56363855
+        }
+    }, 
+    {
+        "linkValue": 3.4376799999999998, 
+        "node1": {
+            "chr": "16", 
+            "end": 3399363, 
+            "options": "color=vlgrey,thickness=3.43768,z=-1", 
+            "start": 3391190
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 54682803, 
+            "options": "color=vlgrey,thickness=3.43768,z=-1", 
+            "start": 54682803
+        }
+    }, 
+    {
+        "linkValue": 3.1765300000000001, 
+        "node1": {
+            "chr": "3", 
+            "end": 140741361, 
+            "options": "color=dblue,thickness=3.17653,z=0.314808926721926127", 
+            "start": 140727937
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 140741121, 
+            "options": "color=dblue,thickness=3.17653,z=0.314808926721926127", 
+            "start": 140741121
+        }
+    }, 
+    {
+        "linkValue": 2.9446300000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 2794997, 
+            "options": "color=vlgrey,thickness=2.94463,z=-1", 
+            "start": 2769622
+        }, 
+        "node2": {
+            "chr": "X", 
+            "end": 48943549, 
+            "options": "color=vlgrey,thickness=2.94463,z=-1", 
+            "start": 48943549
+        }
+    }, 
+    {
+        "linkValue": 3.1645599999999998, 
+        "node1": {
+            "chr": "3", 
+            "end": 184300059, 
+            "options": "color=dorange,thickness=3.16456,z=0.315999696640291225", 
+            "start": 184215699
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 184239066, 
+            "options": "color=dorange,thickness=3.16456,z=0.315999696640291225", 
+            "start": 182999067
+        }
+    }, 
+    {
+        "linkValue": 2.9603799999999998, 
+        "node1": {
+            "chr": "1", 
+            "end": 203357773, 
+            "options": "color=dorange,thickness=2.96038,z=0.337794472331254771", 
+            "start": 203321894
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 203749268, 
+            "options": "color=dorange,thickness=2.96038,z=0.337794472331254771", 
+            "start": 202529269
+        }
+    }, 
+    {
+        "linkValue": 3.5455899999999998, 
+        "node1": {
+            "chr": "4", 
+            "end": 54625545, 
+            "options": "color=dorange,thickness=3.54559,z=0.28204050665756616", 
+            "start": 54570714
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 54741413, 
+            "options": "color=dorange,thickness=3.54559,z=0.28204050665756616", 
+            "start": 54556414
+        }
+    }, 
+    {
+        "linkValue": 3.6507700000000001, 
+        "node1": {
+            "chr": "12", 
+            "end": 67525478, 
+            "options": "color=dorange,thickness=3.65077,z=0.273914817969907718", 
+            "start": 67488237
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67588854, 
+            "options": "color=dorange,thickness=3.65077,z=0.273914817969907718", 
+            "start": 67583855
+        }
+    }, 
+    {
+        "linkValue": 2.8458399999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 55990513, 
+            "options": "color=vlgrey,thickness=2.84584,z=-1", 
+            "start": 55933814
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 44331466, 
+            "options": "color=vlgrey,thickness=2.84584,z=-1", 
+            "start": 44331466
+        }
+    }, 
+    {
+        "linkValue": 2.84734, 
+        "node1": {
+            "chr": "19", 
+            "end": 3508571, 
+            "options": "color=vlgrey,thickness=2.84734,z=-1", 
+            "start": 3495196
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 203064552, 
+            "options": "color=vlgrey,thickness=2.84734,z=-1", 
+            "start": 203064552
+        }
+    }, 
+    {
+        "linkValue": 2.8483000000000001, 
+        "node1": {
+            "chr": "3", 
+            "end": 45565332, 
+            "options": "color=vlgrey,thickness=2.8483,z=-1", 
+            "start": 45405078
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 203064552, 
+            "options": "color=vlgrey,thickness=2.8483,z=-1", 
+            "start": 203064552
+        }
+    }, 
+    {
+        "linkValue": 2.8437100000000002, 
+        "node1": {
+            "chr": "4", 
+            "end": 1827772, 
+            "options": "color=vlgrey,thickness=2.84371,z=-1", 
+            "start": 1783003
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 203064552, 
+            "options": "color=vlgrey,thickness=2.84371,z=-1", 
+            "start": 203064552
+        }
+    }, 
+    {
+        "linkValue": 3.0192999999999999, 
+        "node1": {
+            "chr": "19", 
+            "end": 54636620, 
+            "options": "color=dblue,thickness=3.0193,z=0.331202596628357566", 
+            "start": 54624467
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 51911731, 
+            "options": "color=dblue,thickness=3.0193,z=0.331202596628357566", 
+            "start": 51911731
+        }
+    }, 
+    {
+        "linkValue": 3.0038800000000001, 
+        "node1": {
+            "chr": "16", 
+            "end": 24281238, 
+            "options": "color=vlgrey,thickness=3.00388,z=-1", 
+            "start": 24174376
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 51911731, 
+            "options": "color=vlgrey,thickness=3.00388,z=-1", 
+            "start": 51911731
+        }
+    }, 
+    {
+        "linkValue": 3.0253899999999998, 
+        "node1": {
+            "chr": "20", 
+            "end": 61755224, 
+            "options": "color=vlgrey,thickness=3.02539,z=-1", 
+            "start": 61741504
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 4480757, 
+            "options": "color=vlgrey,thickness=3.02539,z=-1", 
+            "start": 4480757
+        }
+    }, 
+    {
+        "linkValue": 3.03085, 
+        "node1": {
+            "chr": "18", 
+            "end": 27518684, 
+            "options": "color=vlgrey,thickness=3.03085,z=-1", 
+            "start": 27456206
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 4480757, 
+            "options": "color=vlgrey,thickness=3.03085,z=-1", 
+            "start": 4480757
+        }
+    }, 
+    {
+        "linkValue": 2.8017400000000001, 
+        "node1": {
+            "chr": "5", 
+            "end": 149649596, 
+            "options": "color=vlgrey,thickness=2.80174,z=-1", 
+            "start": 149579247
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 51911731, 
+            "options": "color=vlgrey,thickness=2.80174,z=-1", 
+            "start": 51911731
+        }
+    }, 
+    {
+        "linkValue": 2.8254700000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 2794997, 
+            "options": "color=dblue,thickness=2.82547,z=0.353923418050802167", 
+            "start": 2769622
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 19614073, 
+            "options": "color=dblue,thickness=2.82547,z=0.353923418050802167", 
+            "start": 19614073
+        }
+    }, 
+    {
+        "linkValue": 2.84944, 
+        "node1": {
+            "chr": "14", 
+            "end": 49767849, 
+            "options": "color=dorange,thickness=2.84944,z=0.350946150822617778", 
+            "start": 49653595
+        }, 
+        "node2": {
+            "chr": "14", 
+            "end": 73069473, 
+            "options": "color=dorange,thickness=2.84944,z=0.350946150822617778", 
+            "start": 40699474
+        }
+    }, 
+    {
+        "linkValue": 2.8052800000000002, 
+        "node1": {
+            "chr": "8", 
+            "end": 22145796, 
+            "options": "color=vlgrey,thickness=2.80528,z=-1", 
+            "start": 22133160
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 51911731, 
+            "options": "color=vlgrey,thickness=2.80528,z=-1", 
+            "start": 51911731
+        }
+    }, 
+    {
+        "linkValue": 3.0386500000000001, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dorange,thickness=3.03865,z=0.329093511921412469", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 22078131, 
+            "options": "color=dorange,thickness=3.03865,z=0.329093511921412469", 
+            "start": 22008132
+        }
+    }, 
+    {
+        "linkValue": 2.8384900000000002, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=2.83849,z=0.352299990487900257", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54820213, 
+            "options": "color=dorange,thickness=2.83849,z=0.352299990487900257", 
+            "start": 54765214
+        }
+    }, 
+    {
+        "linkValue": 3.0545499999999999, 
+        "node1": {
+            "chr": "Y", 
+            "end": 13541784, 
+            "options": "color=dorange,thickness=3.05455,z=0.32738046520764106", 
+            "start": 13526092
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 12500450, 
+            "options": "color=dorange,thickness=3.05455,z=0.32738046520764106", 
+            "start": 10515451
+        }
+    }, 
+    {
+        "linkValue": 2.8195600000000001, 
+        "node1": {
+            "chr": "19", 
+            "end": 34395976, 
+            "options": "color=vlgrey,thickness=2.81956,z=-1", 
+            "start": 34390006
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 21489228, 
+            "options": "color=vlgrey,thickness=2.81956,z=-1", 
+            "start": 21489228
+        }
+    }, 
+    {
+        "linkValue": 4.1485000000000003, 
+        "node1": {
+            "chr": "9", 
+            "end": 21984490, 
+            "options": "color=dblue,thickness=4.1485,z=0.241050982282752802", 
+            "start": 21957751
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21958681, 
+            "options": "color=dblue,thickness=4.1485,z=0.241050982282752802", 
+            "start": 21958681
+        }
+    }, 
+    {
+        "linkValue": 3.8458000000000001, 
+        "node1": {
+            "chr": "22", 
+            "end": 22714284, 
+            "options": "color=dorange,thickness=3.8458,z=0.260023922200842478", 
+            "start": 22706138
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 22684218, 
+            "options": "color=dorange,thickness=3.8458,z=0.260023922200842478", 
+            "start": 22674219
+        }
+    }, 
+    {
+        "linkValue": 3.0259, 
+        "node1": {
+            "chr": "4", 
+            "end": 56466001, 
+            "options": "color=dorange,thickness=3.0259,z=0.330480187712746621", 
+            "start": 56414572
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 55456413, 
+            "options": "color=dorange,thickness=3.0259,z=0.330480187712746621", 
+            "start": 55191414
+        }
+    }, 
+    {
+        "linkValue": 2.9229699999999998, 
+        "node1": {
+            "chr": "8", 
+            "end": 30789894, 
+            "options": "color=vlgrey,thickness=2.92297,z=-1", 
+            "start": 30762667
+        }, 
+        "node2": {
+            "chr": "15", 
+            "end": 72805581, 
+            "options": "color=vlgrey,thickness=2.92297,z=-1", 
+            "start": 72805581
+        }
+    }, 
+    {
+        "linkValue": 3.0522100000000001, 
+        "node1": {
+            "chr": "20", 
+            "end": 43271828, 
+            "options": "color=vlgrey,thickness=3.05221,z=-1", 
+            "start": 43269051
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 42355545, 
+            "options": "color=vlgrey,thickness=3.05221,z=-1", 
+            "start": 42355545
+        }
+    }, 
+    {
+        "linkValue": 3.11524, 
+        "node1": {
+            "chr": "22", 
+            "end": 41583352, 
+            "options": "color=vlgrey,thickness=3.11524,z=-1", 
+            "start": 41522475
+        }, 
+        "node2": {
+            "chr": "6", 
+            "end": 71333361, 
+            "options": "color=vlgrey,thickness=3.11524,z=-1", 
+            "start": 71333361
+        }
+    }, 
+    {
+        "linkValue": 3.20899, 
+        "node1": {
+            "chr": "22", 
+            "end": 36710485, 
+            "options": "color=dblue,thickness=3.20899,z=0.311624529836490609", 
+            "start": 36698264
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 36710385, 
+            "options": "color=dblue,thickness=3.20899,z=0.311624529836490609", 
+            "start": 36710385
+        }
+    }, 
+    {
+        "linkValue": 3.2679100000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 13541784, 
+            "options": "color=dorange,thickness=3.26791,z=0.306005979356836633", 
+            "start": 13526092
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 6650450, 
+            "options": "color=dorange,thickness=3.26791,z=0.306005979356836633", 
+            "start": 3225451
+        }
+    }, 
+    {
+        "linkValue": 3.24295, 
+        "node1": {
+            "chr": "11", 
+            "end": 113776349, 
+            "options": "color=dblue,thickness=3.24295,z=0.308361214326462018", 
+            "start": 113767379
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 113776289, 
+            "options": "color=dblue,thickness=3.24295,z=0.308361214326462018", 
+            "start": 113776289
+        }
+    }, 
+    {
+        "linkValue": 2.96191, 
+        "node1": {
+            "chr": "19", 
+            "end": 59542233, 
+            "options": "color=dblue,thickness=2.96191,z=0.337619981700996992", 
+            "start": 59536503
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 42355545, 
+            "options": "color=dblue,thickness=2.96191,z=0.337619981700996992", 
+            "start": 42355545
+        }
+    }, 
+    {
+        "linkValue": 2.85046, 
+        "node1": {
+            "chr": "5", 
+            "end": 904101, 
+            "options": "color=vlgrey,thickness=2.85046,z=-1", 
+            "start": 848719
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 36810838, 
+            "options": "color=vlgrey,thickness=2.85046,z=-1", 
+            "start": 36810838
+        }
+    }, 
+    {
+        "linkValue": 2.9533900000000002, 
+        "node1": {
+            "chr": "1", 
+            "end": 26361706, 
+            "options": "color=vlgrey,thickness=2.95339,z=-1", 
+            "start": 26358097
+        }, 
+        "node2": {
+            "chr": "5", 
+            "end": 133996525, 
+            "options": "color=vlgrey,thickness=2.95339,z=-1", 
+            "start": 133996525
+        }
+    }, 
+    {
+        "linkValue": 3.01837, 
+        "node1": {
+            "chr": "3", 
+            "end": 185013107, 
+            "options": "color=dorange,thickness=3.01837,z=0.331304644559812084", 
+            "start": 184898299
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 184239066, 
+            "options": "color=dorange,thickness=3.01837,z=0.331304644559812084", 
+            "start": 182999067
+        }
+    }, 
+    {
+        "linkValue": 3.6611199999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56462591, 
+            "options": "color=dorange,thickness=3.66112,z=0.273140459750021851", 
+            "start": 56452649
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=3.66112,z=0.273140459750021851", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 3.1936300000000002, 
+        "node1": {
+            "chr": "9", 
+            "end": 21325429, 
+            "options": "color=dorange,thickness=3.19363,z=0.313123311091140802", 
+            "start": 21321017
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 21733131, 
+            "options": "color=dorange,thickness=3.19363,z=0.313123311091140802", 
+            "start": 21698132
+        }
+    }, 
+    {
+        "linkValue": 3.4544800000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 56447243, 
+            "options": "color=dorange,thickness=3.45448,z=0.289479169078993076", 
+            "start": 56442383
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56443854, 
+            "options": "color=dorange,thickness=3.45448,z=0.289479169078993076", 
+            "start": 56393855
+        }
+    }, 
+    {
+        "linkValue": 2.8685800000000001, 
+        "node1": {
+            "chr": "16", 
+            "end": 86527613, 
+            "options": "color=dred,thickness=2.86858,z=0.348604536042222981", 
+            "start": 86479125
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67198854, 
+            "options": "color=dred,thickness=2.86858,z=0.348604536042222981", 
+            "start": 67158855
+        }
+    }, 
+    {
+        "linkValue": 2.9197600000000001, 
+        "node1": {
+            "chr": "12", 
+            "end": 67525478, 
+            "options": "color=dorange,thickness=2.91976,z=0.342493903608515768", 
+            "start": 67488237
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67453854, 
+            "options": "color=dorange,thickness=2.91976,z=0.342493903608515768", 
+            "start": 67393855
+        }
+    }, 
+    {
+        "linkValue": 3.34693, 
+        "node1": {
+            "chr": "7", 
+            "end": 55468929, 
+            "options": "color=dorange,thickness=3.34693,z=0.298781271194796425", 
+            "start": 55400634
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55350213, 
+            "options": "color=dorange,thickness=3.34693,z=0.298781271194796425", 
+            "start": 55315214
+        }
+    }, 
+    {
+        "linkValue": 3.6726100000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 56428293, 
+            "options": "color=dorange,thickness=3.67261,z=0.272285922000974784", 
+            "start": 56425050
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=3.67261,z=0.272285922000974784", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 2.8577499999999998, 
+        "node1": {
+            "chr": "19", 
+            "end": 51538530, 
+            "options": "color=vlgrey,thickness=2.85775,z=-1", 
+            "start": 51498715
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 205293187, 
+            "options": "color=vlgrey,thickness=2.85775,z=-1", 
+            "start": 205293187
+        }
+    }, 
+    {
+        "linkValue": 2.8027299999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 3653797, 
+            "options": "color=vlgrey,thickness=2.80273,z=-1", 
+            "start": 3642408
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 50271381, 
+            "options": "color=vlgrey,thickness=2.80273,z=-1", 
+            "start": 50271381
+        }
+    }, 
+    {
+        "linkValue": 3.0093100000000002, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.00931,z=0.332302089183234695", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54670213, 
+            "options": "color=dorange,thickness=3.00931,z=0.332302089183234695", 
+            "start": 54640214
+        }
+    }, 
+    {
+        "linkValue": 2.9552800000000001, 
+        "node1": {
+            "chr": "21", 
+            "end": 32026302, 
+            "options": "color=vlgrey,thickness=2.95528,z=-1", 
+            "start": 31965183
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 137167732, 
+            "options": "color=vlgrey,thickness=2.95528,z=-1", 
+            "start": 137167732
+        }
+    }, 
+    {
+        "linkValue": 3.7840600000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 56432431, 
+            "options": "color=dorange,thickness=3.78406,z=0.264266422836847196", 
+            "start": 56428269
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56588854, 
+            "options": "color=dorange,thickness=3.78406,z=0.264266422836847196", 
+            "start": 56443855
+        }
+    }, 
+    {
+        "linkValue": 2.86795, 
+        "node1": {
+            "chr": "11", 
+            "end": 65396916, 
+            "options": "color=vlgrey,thickness=2.86795,z=-1", 
+            "start": 65390487
+        }, 
+        "node2": {
+            "chr": "15", 
+            "end": 87239675, 
+            "options": "color=vlgrey,thickness=2.86795,z=-1", 
+            "start": 87239675
+        }
+    }, 
+    {
+        "linkValue": 5.0652999999999997, 
+        "node1": {
+            "chr": "12", 
+            "end": 56432431, 
+            "options": "color=dorange,thickness=5.0653,z=0.197421672951256589", 
+            "start": 56428269
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=5.0653,z=0.197421672951256589", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 3.5070700000000001, 
+        "node1": {
+            "chr": "22", 
+            "end": 26527486, 
+            "options": "color=vlgrey,thickness=3.50707,z=-1", 
+            "start": 26474264
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 21489228, 
+            "options": "color=vlgrey,thickness=3.50707,z=-1", 
+            "start": 21489228
+        }
+    }, 
+    {
+        "linkValue": 2.9359299999999999, 
+        "node1": {
+            "chr": "3", 
+            "end": 48317852, 
+            "options": "color=dblue,thickness=2.93593,z=0.340607575793700803", 
+            "start": 48310592
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 48317768, 
+            "options": "color=dblue,thickness=2.93593,z=0.340607575793700803", 
+            "start": 48317768
+        }
+    }, 
+    {
+        "linkValue": 3.3801399999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 56401605, 
+            "options": "color=dorange,thickness=3.38014,z=0.295845734200358565", 
+            "start": 56374004
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 56393854, 
+            "options": "color=dorange,thickness=3.38014,z=0.295845734200358565", 
+            "start": 56383855
+        }
+    }, 
+    {
+        "linkValue": 3.1972, 
+        "node1": {
+            "chr": "17", 
+            "end": 8092138, 
+            "options": "color=vlgrey,thickness=3.1972,z=-1", 
+            "start": 8068863
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 40193589, 
+            "options": "color=vlgrey,thickness=3.1972,z=-1", 
+            "start": 40193589
+        }
+    }, 
+    {
+        "linkValue": 2.9878900000000002, 
+        "node1": {
+            "chr": "1", 
+            "end": 3653797, 
+            "options": "color=vlgrey,thickness=2.98789,z=-1", 
+            "start": 3642408
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 11311261, 
+            "options": "color=vlgrey,thickness=2.98789,z=-1", 
+            "start": 11311261
+        }
+    }, 
+    {
+        "linkValue": 2.8315299999999999, 
+        "node1": {
+            "chr": "1", 
+            "end": 159395270, 
+            "options": "color=dblue,thickness=2.83153,z=0.353165956214484749", 
+            "start": 159390157
+        }, 
+        "node2": {
+            "chr": "1", 
+            "end": 21489228, 
+            "options": "color=dblue,thickness=2.83153,z=0.353165956214484749", 
+            "start": 21489228
+        }
+    }, 
+    {
+        "linkValue": 3.0027400000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 69035040, 
+            "options": "color=dorange,thickness=3.00274,z=0.333029166694419097", 
+            "start": 68923043
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 69253854, 
+            "options": "color=dorange,thickness=3.00274,z=0.333029166694419097", 
+            "start": 69188855
+        }
+    }, 
+    {
+        "linkValue": 3.37033, 
+        "node1": {
+            "chr": "8", 
+            "end": 6771008, 
+            "options": "color=vlgrey,thickness=3.37033,z=-1", 
+            "start": 6769628
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 2427129, 
+            "options": "color=vlgrey,thickness=3.37033,z=-1", 
+            "start": 2427129
+        }
+    }, 
+    {
+        "linkValue": 2.9862700000000002, 
+        "node1": {
+            "chr": "2", 
+            "end": 95442606, 
+            "options": "color=vlgrey,thickness=2.98627,z=-1", 
+            "start": 95432174
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 118799545, 
+            "options": "color=vlgrey,thickness=2.98627,z=-1", 
+            "start": 118799545
+        }
+    }, 
+    {
+        "linkValue": 3.1629999999999998, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.163,z=0.316155548529876699", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54935213, 
+            "options": "color=dorange,thickness=3.163,z=0.316155548529876699", 
+            "start": 54890214
+        }
+    }, 
+    {
+        "linkValue": 2.8957899999999999, 
+        "node1": {
+            "chr": "3", 
+            "end": 185374008, 
+            "options": "color=dorange,thickness=2.89579,z=0.345328908518918844", 
+            "start": 185355977
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 186169066, 
+            "options": "color=dorange,thickness=2.89579,z=0.345328908518918844", 
+            "start": 184239067
+        }
+    }, 
+    {
+        "linkValue": 3.4951300000000001, 
+        "node1": {
+            "chr": "3", 
+            "end": 185562085, 
+            "options": "color=dorange,thickness=3.49513,z=0.286112390669302715", 
+            "start": 185546670
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 186169066, 
+            "options": "color=dorange,thickness=3.49513,z=0.286112390669302715", 
+            "start": 184239067
+        }
+    }, 
+    {
+        "linkValue": 2.9506000000000001, 
+        "node1": {
+            "chr": "3", 
+            "end": 184181020, 
+            "options": "color=dorange,thickness=2.9506,z=0.338914119162204297", 
+            "start": 184143252
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 186169066, 
+            "options": "color=dorange,thickness=2.9506,z=0.338914119162204297", 
+            "start": 184239067
+        }
+    }, 
+    {
+        "linkValue": 3.59755, 
+        "node1": {
+            "chr": "15", 
+            "end": 40612548, 
+            "options": "color=vlgrey,thickness=3.59755,z=-1", 
+            "start": 40575126
+        }, 
+        "node2": {
+            "chr": "10", 
+            "end": 104603918, 
+            "options": "color=vlgrey,thickness=3.59755,z=-1", 
+            "start": 104603918
+        }
+    }, 
+    {
+        "linkValue": 3.3696100000000002, 
+        "node1": {
+            "chr": "3", 
+            "end": 172109120, 
+            "options": "color=vlgrey,thickness=3.36961,z=-1", 
+            "start": 172088897
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 38785529, 
+            "options": "color=vlgrey,thickness=3.36961,z=-1", 
+            "start": 38785529
+        }
+    }, 
+    {
+        "linkValue": 2.9358399999999998, 
+        "node1": {
+            "chr": "5", 
+            "end": 42757683, 
+            "options": "color=vlgrey,thickness=2.93584,z=-1", 
+            "start": 42459782
+        }, 
+        "node2": {
+            "chr": "19", 
+            "end": 9646779, 
+            "options": "color=vlgrey,thickness=2.93584,z=-1", 
+            "start": 9646779
+        }
+    }, 
+    {
+        "linkValue": 3.2894199999999998, 
+        "node1": {
+            "chr": "2", 
+            "end": 219388260, 
+            "options": "color=vlgrey,thickness=3.28942,z=-1", 
+            "start": 219354715
+        }, 
+        "node2": {
+            "chr": "15", 
+            "end": 37660352, 
+            "options": "color=vlgrey,thickness=3.28942,z=-1", 
+            "start": 37660352
+        }
+    }, 
+    {
+        "linkValue": 3.0243099999999998, 
+        "node1": {
+            "chr": "7", 
+            "end": 54794433, 
+            "options": "color=dorange,thickness=3.02431,z=0.3306539342858371", 
+            "start": 54787433
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 54890213, 
+            "options": "color=dorange,thickness=3.02431,z=0.3306539342858371", 
+            "start": 54835214
+        }
+    }, 
+    {
+        "linkValue": 4.3567, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=4.3567,z=0.229531526155117405", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55260213, 
+            "options": "color=dorange,thickness=4.3567,z=0.229531526155117405", 
+            "start": 55250214
+        }
+    }, 
+    {
+        "linkValue": 2.9329900000000002, 
+        "node1": {
+            "chr": "17", 
+            "end": 564846, 
+            "options": "color=vlgrey,thickness=2.93299,z=-1", 
+            "start": 358657
+        }, 
+        "node2": {
+            "chr": "6", 
+            "end": 167970692, 
+            "options": "color=vlgrey,thickness=2.93299,z=-1", 
+            "start": 167970692
+        }
+    }, 
+    {
+        "linkValue": 3.1341999999999999, 
+        "node1": {
+            "chr": "5", 
+            "end": 132228376, 
+            "options": "color=vlgrey,thickness=3.1342,z=-1", 
+            "start": 132224776
+        }, 
+        "node2": {
+            "chr": "3", 
+            "end": 198180335, 
+            "options": "color=vlgrey,thickness=3.1342,z=-1", 
+            "start": 198180335
+        }
+    }, 
+    {
+        "linkValue": 3.9690400000000001, 
+        "node1": {
+            "chr": "7", 
+            "end": 55242525, 
+            "options": "color=dorange,thickness=3.96904,z=0.251950093725434866", 
+            "start": 55054218
+        }, 
+        "node2": {
+            "chr": "7", 
+            "end": 55250213, 
+            "options": "color=dorange,thickness=3.96904,z=0.251950093725434866", 
+            "start": 55190214
+        }
+    }, 
+    {
+        "linkValue": 3.0929500000000001, 
+        "node1": {
+            "chr": "6_qbl_hap2", 
+            "end": 2940428, 
+            "options": "color=vlgrey,thickness=3.09295,z=-1", 
+            "start": 2938737
+        }, 
+        "node2": {
+            "chr": "11", 
+            "end": 107843372, 
+            "options": "color=vlgrey,thickness=3.09295,z=-1", 
+            "start": 107843372
+        }
+    }, 
+    {
+        "linkValue": 4.6360000000000001, 
+        "node1": {
+            "chr": "12", 
+            "end": 67422740, 
+            "options": "color=dorange,thickness=4.636,z=0.215703192407247627", 
+            "start": 67366997
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67453854, 
+            "options": "color=dorange,thickness=4.636,z=0.215703192407247627", 
+            "start": 67393855
+        }
+    }, 
+    {
+        "linkValue": 3.0442, 
+        "node1": {
+            "chr": "7", 
+            "end": 27102150, 
+            "options": "color=vlgrey,thickness=3.0442,z=-1", 
+            "start": 27099138
+        }, 
+        "node2": {
+            "chr": "9", 
+            "end": 4480757, 
+            "options": "color=vlgrey,thickness=3.0442,z=-1", 
+            "start": 4480757
+        }
+    }, 
+    {
+        "linkValue": 4.5022000000000002, 
+        "node1": {
+            "chr": "12", 
+            "end": 67525478, 
+            "options": "color=dorange,thickness=4.5022,z=0.222113633334814091", 
+            "start": 67488237
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 67553854, 
+            "options": "color=dorange,thickness=4.5022,z=0.222113633334814091", 
+            "start": 67468855
+        }
+    }, 
+    {
+        "linkValue": 3.1259199999999998, 
+        "node1": {
+            "chr": "19", 
+            "end": 51081216, 
+            "options": "color=vlgrey,thickness=3.12592,z=-1", 
+            "start": 51078705
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 10927484, 
+            "options": "color=vlgrey,thickness=3.12592,z=-1", 
+            "start": 10927484
+        }
+    }, 
+    {
+        "linkValue": 3.78898, 
+        "node1": {
+            "chr": "Y", 
+            "end": 13541784, 
+            "options": "color=dorange,thickness=3.78898,z=0.263923272226298371", 
+            "start": 13526092
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 10375450, 
+            "options": "color=dorange,thickness=3.78898,z=0.263923272226298371", 
+            "start": 6695451
+        }
+    }, 
+    {
+        "linkValue": 3.5601400000000001, 
+        "node1": {
+            "chr": "22", 
+            "end": 22714284, 
+            "options": "color=dorange,thickness=3.56014,z=0.280887830253866421", 
+            "start": 22706138
+        }, 
+        "node2": {
+            "chr": "22", 
+            "end": 22699218, 
+            "options": "color=dorange,thickness=3.56014,z=0.280887830253866421", 
+            "start": 22684219
+        }
+    }, 
+    {
+        "linkValue": 2.8238799999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 64934659, 
+            "options": "color=vlgrey,thickness=2.82388,z=-1", 
+            "start": 64869244
+        }, 
+        "node2": {
+            "chr": "20", 
+            "end": 57051541, 
+            "options": "color=vlgrey,thickness=2.82388,z=-1", 
+            "start": 57051541
+        }
+    }, 
+    {
+        "linkValue": 2.81521, 
+        "node1": {
+            "chr": "4", 
+            "end": 54625545, 
+            "options": "color=dorange,thickness=2.81521,z=0.355213287818670721", 
+            "start": 54570714
+        }, 
+        "node2": {
+            "chr": "4", 
+            "end": 55191413, 
+            "options": "color=dorange,thickness=2.81521,z=0.355213287818670721", 
+            "start": 54741414
+        }
+    }, 
+    {
+        "linkValue": 2.8406500000000001, 
+        "node1": {
+            "chr": "Y", 
+            "end": 2794997, 
+            "options": "color=vlgrey,thickness=2.84065,z=-1", 
+            "start": 2769622
+        }, 
+        "node2": {
+            "chr": "X", 
+            "end": 54483777, 
+            "options": "color=vlgrey,thickness=2.84065,z=-1", 
+            "start": 54483777
+        }
+    }, 
+    {
+        "linkValue": 2.89276, 
+        "node1": {
+            "chr": "11", 
+            "end": 118566142, 
+            "options": "color=vlgrey,thickness=2.89276,z=-1", 
+            "start": 118561375
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 131974492, 
+            "options": "color=vlgrey,thickness=2.89276,z=-1", 
+            "start": 131974492
+        }
+    }, 
+    {
+        "linkValue": 3.65842, 
+        "node1": {
+            "chr": "Y", 
+            "end": 21164428, 
+            "options": "color=dorange,thickness=3.65842,z=0.273342043833130149", 
+            "start": 21146998
+        }, 
+        "node2": {
+            "chr": "Y", 
+            "end": 24685450, 
+            "options": "color=dorange,thickness=3.65842,z=0.273342043833130149", 
+            "start": 12500451
+        }
+    }, 
+    {
+        "linkValue": 2.9267799999999999, 
+        "node1": {
+            "chr": "12", 
+            "end": 68259829, 
+            "options": "color=dorange,thickness=2.92678,z=0.341672418152372232", 
+            "start": 68150395
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 68088854, 
+            "options": "color=dorange,thickness=2.92678,z=0.341672418152372232", 
+            "start": 67633855
+        }
+    }, 
+    {
+        "linkValue": 2.9083600000000001, 
+        "node1": {
+            "chr": "3", 
+            "end": 140741361, 
+            "options": "color=vlgrey,thickness=2.90836,z=-1", 
+            "start": 140727937
+        }, 
+        "node2": {
+            "chr": "2", 
+            "end": 238266206, 
+            "options": "color=vlgrey,thickness=2.90836,z=-1", 
+            "start": 238266206
+        }
+    }, 
+    {
+        "linkValue": 2.8978299999999999, 
+        "node1": {
+            "chr": "16", 
+            "end": 10582040, 
+            "options": "color=vlgrey,thickness=2.89783,z=-1", 
+            "start": 10529780
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 54904463, 
+            "options": "color=vlgrey,thickness=2.89783,z=-1", 
+            "start": 54904463
+        }
+    }, 
+    {
+        "linkValue": 2.9817999999999998, 
+        "node1": {
+            "chr": "8", 
+            "end": 145555754, 
+            "options": "color=vlgrey,thickness=2.9818,z=-1", 
+            "start": 145553032
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 54904463, 
+            "options": "color=vlgrey,thickness=2.9818,z=-1", 
+            "start": 54904463
+        }
+    }, 
+    {
+        "linkValue": 2.8953700000000002, 
+        "node1": {
+            "chr": "19", 
+            "end": 6144112, 
+            "options": "color=vlgrey,thickness=2.89537,z=-1", 
+            "start": 6086709
+        }, 
+        "node2": {
+            "chr": "12", 
+            "end": 54904463, 
+            "options": "color=vlgrey,thickness=2.89537,z=-1", 
+            "start": 54904463
+        }
+    }
+];

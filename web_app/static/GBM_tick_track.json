@@ -1,0 +1,2312 @@
+var ticks = [
+    {
+        chr: "3", 
+        "end": 185394489, 
+        "value": "ABCF3", 
+        "start": 185386556
+    }, 
+    {
+        chr: "3", 
+        "end": 51990255, 
+        "value": "ABHD14A", 
+        "start": 51984081
+    }, 
+    {
+        chr: "19", 
+        "end": 6144112, 
+        "value": "ACSBG2", 
+        "start": 6086709
+    }, 
+    {
+        chr: "3", 
+        "end": 185384573, 
+        "value": "AP2M1", 
+        "start": 185375327
+    }, 
+    {
+        chr: "22", 
+        "end": 41583352, 
+        "value": "ARFGAP3", 
+        "start": 41522475
+    }, 
+    {
+        chr: "10", 
+        "end": 99042403, 
+        "value": "ARHGAP19", 
+        "start": 98971919
+    }, 
+    {
+        chr: "7", 
+        "end": 98801825, 
+        "value": "ARPC1A", 
+        "start": 98761431
+    }, 
+    {
+        chr: "1", 
+        "end": 153798948, 
+        "value": "ASH1L", 
+        "start": 153571675
+    }, 
+    {
+        chr: "8", 
+        "end": 124477886, 
+        "value": "ATAD2", 
+        "start": 124401271
+    }, 
+    {
+        chr: "14", 
+        "end": 95899431, 
+        "value": "ATG2B", 
+        "start": 95817347
+    }, 
+    {
+        chr: "3", 
+        "end": 184122115, 
+        "value": "ATP11B", 
+        "start": 183993984
+    }, 
+    {
+        chr: "1", 
+        "end": 201979832, 
+        "value": "ATP2B4", 
+        "start": 201862550
+    }, 
+    {
+        chr: "19", 
+        "end": 1763199, 
+        "value": "ATP8B3", 
+        "start": 1733075
+    }, 
+    {
+        chr: "12", 
+        "end": 56496119, 
+        "value": "AVIL", 
+        "start": 56477427
+    }, 
+    {
+        chr: "18", 
+        "end": 27518684, 
+        "value": "B4GALT6", 
+        "start": 27456206
+    }, 
+    {
+        chr: "19", 
+        "end": 49955141, 
+        "value": "BCL3", 
+        "start": 49943817
+    }, 
+    {
+        chr: "10", 
+        "end": 81842287, 
+        "value": "C10orf57", 
+        "start": 81828405
+    }, 
+    {
+        chr: "11", 
+        "end": 113776349, 
+        "value": "C11orf71", 
+        "start": 113767379
+    }, 
+    {
+        chr: "17", 
+        "end": 8092138, 
+        "value": "C17orf68", 
+        "start": 8068863
+    }, 
+    {
+        chr: "19", 
+        "end": 3508571, 
+        "value": "C19orf28", 
+        "start": 3495196
+    }, 
+    {
+        chr: "6_qbl_hap2", 
+        "end": 2940428, 
+        "value": "C6orf25", 
+        "start": 2938737
+    }, 
+    {
+        chr: "16", 
+        "end": 86527613, 
+        "value": "CA5A", 
+        "start": 86479125
+    }, 
+    {
+        chr: "16", 
+        "end": 24281238, 
+        "value": "CACNG3", 
+        "start": 24174376
+    }, 
+    {
+        chr: "5", 
+        "end": 149649596, 
+        "value": "CAMK2A", 
+        "start": 149579247
+    }, 
+    {
+        chr: "8", 
+        "end": 27686089, 
+        "value": "CCDC25", 
+        "start": 27646751
+    }, 
+    {
+        chr: "12", 
+        "end": 56432431, 
+        "value": "CDK4", 
+        "start": 56428269
+    }, 
+    {
+        chr: "9", 
+        "end": 21984490, 
+        "value": "CDKN2A", 
+        "start": 21957751
+    }, 
+    {
+        chr: "5", 
+        "end": 149544314, 
+        "value": "CDX1", 
+        "start": 149526536
+    }, 
+    {
+        chr: "4", 
+        "end": 54625545, 
+        "value": "CHIC2", 
+        "start": 54570714
+    }, 
+    {
+        chr: "14", 
+        "end": 23753025, 
+        "value": "CHMP4A", 
+        "start": 23748626
+    }, 
+    {
+        chr: "7", 
+        "end": 29520469, 
+        "value": "CHN2", 
+        "start": 29486010
+    }, 
+    {
+        chr: "12", 
+        "end": 100646977, 
+        "value": "CHPT1", 
+        "start": 100615547
+    }, 
+    {
+        chr: "3", 
+        "end": 185562085, 
+        "value": "CLCN2", 
+        "start": 185546670
+    }, 
+    {
+        chr: "1", 
+        "end": 25043403, 
+        "value": "CLIC4", 
+        "start": 24944346
+    }, 
+    {
+        chr: "16", 
+        "end": 57221251, 
+        "value": "CNOT1", 
+        "start": 57111355
+    }, 
+    {
+        chr: "12", 
+        "end": 69035040, 
+        "value": "CNOT2", 
+        "start": 68923043
+    }, 
+    {
+        chr: "12", 
+        "end": 56363854, 
+        "value": "CNV", 
+        "start": 56343855
+    }, 
+    {
+        chr: "12", 
+        "end": 56383854, 
+        "value": "CNV", 
+        "start": 56363855
+    }, 
+    {
+        chr: "12", 
+        "end": 56393854, 
+        "value": "CNV", 
+        "start": 56383855
+    }, 
+    {
+        chr: "12", 
+        "end": 56443854, 
+        "value": "CNV", 
+        "start": 56393855
+    }, 
+    {
+        chr: "12", 
+        "end": 56588854, 
+        "value": "CNV", 
+        "start": 56443855
+    }, 
+    {
+        chr: "12", 
+        "end": 56768854, 
+        "value": "CNV", 
+        "start": 56588855
+    }, 
+    {
+        chr: "12", 
+        "end": 64553854, 
+        "value": "CNV", 
+        "start": 64273855
+    }, 
+    {
+        chr: "12", 
+        "end": 67198854, 
+        "value": "CNV", 
+        "start": 67158855
+    }, 
+    {
+        chr: "12", 
+        "end": 67393854, 
+        "value": "CNV", 
+        "start": 67358855
+    }, 
+    {
+        chr: "12", 
+        "end": 67453854, 
+        "value": "CNV", 
+        "start": 67393855
+    }, 
+    {
+        chr: "12", 
+        "end": 67468854, 
+        "value": "CNV", 
+        "start": 67453855
+    }, 
+    {
+        chr: "12", 
+        "end": 67553854, 
+        "value": "CNV", 
+        "start": 67468855
+    }, 
+    {
+        chr: "12", 
+        "end": 67583854, 
+        "value": "CNV", 
+        "start": 67553855
+    }, 
+    {
+        chr: "12", 
+        "end": 67588854, 
+        "value": "CNV", 
+        "start": 67583855
+    }, 
+    {
+        chr: "12", 
+        "end": 67633854, 
+        "value": "CNV", 
+        "start": 67588855
+    }, 
+    {
+        chr: "12", 
+        "end": 68088854, 
+        "value": "CNV", 
+        "start": 67633855
+    }, 
+    {
+        chr: "12", 
+        "end": 69188854, 
+        "value": "CNV", 
+        "start": 68108855
+    }, 
+    {
+        chr: "12", 
+        "end": 69253854, 
+        "value": "CNV", 
+        "start": 69188855
+    }, 
+    {
+        chr: "14", 
+        "end": 40699473, 
+        "value": "CNV", 
+        "start": 19494474
+    }, 
+    {
+        chr: "14", 
+        "end": 73069473, 
+        "value": "CNV", 
+        "start": 40699474
+    }, 
+    {
+        chr: "18", 
+        "end": 74034316, 
+        "value": "CNV", 
+        "start": 73964317
+    }, 
+    {
+        chr: "18", 
+        "end": 74584316, 
+        "value": "CNV", 
+        "start": 74114317
+    }, 
+    {
+        chr: "1", 
+        "end": 202529268, 
+        "value": "CNV", 
+        "start": 200659269
+    }, 
+    {
+        chr: "1", 
+        "end": 203749268, 
+        "value": "CNV", 
+        "start": 202529269
+    }, 
+    {
+        chr: "22", 
+        "end": 22684218, 
+        "value": "CNV", 
+        "start": 22674219
+    }, 
+    {
+        chr: "22", 
+        "end": 22699218, 
+        "value": "CNV", 
+        "start": 22684219
+    }, 
+    {
+        chr: "22", 
+        "end": 22704218, 
+        "value": "CNV", 
+        "start": 22699219
+    }, 
+    {
+        chr: "22", 
+        "end": 22724218, 
+        "value": "CNV", 
+        "start": 22704219
+    }, 
+    {
+        chr: "Y", 
+        "end": 10515450, 
+        "value": "CNV", 
+        "start": 10375451
+    }, 
+    {
+        chr: "Y", 
+        "end": 12500450, 
+        "value": "CNV", 
+        "start": 10515451
+    }, 
+    {
+        chr: "Y", 
+        "end": 24685450, 
+        "value": "CNV", 
+        "start": 12500451
+    }, 
+    {
+        chr: "Y", 
+        "end": 6650450, 
+        "value": "CNV", 
+        "start": 3225451
+    }, 
+    {
+        chr: "Y", 
+        "end": 10375450, 
+        "value": "CNV", 
+        "start": 6695451
+    }, 
+    {
+        chr: "3", 
+        "end": 184239066, 
+        "value": "CNV", 
+        "start": 182999067
+    }, 
+    {
+        chr: "3", 
+        "end": 186169066, 
+        "value": "CNV", 
+        "start": 184239067
+    }, 
+    {
+        chr: "4", 
+        "end": 54006413, 
+        "value": "CNV", 
+        "start": 52381414
+    }, 
+    {
+        chr: "4", 
+        "end": 54526413, 
+        "value": "CNV", 
+        "start": 54006414
+    }, 
+    {
+        chr: "4", 
+        "end": 54531413, 
+        "value": "CNV", 
+        "start": 54526414
+    }, 
+    {
+        chr: "4", 
+        "end": 54556413, 
+        "value": "CNV", 
+        "start": 54531414
+    }, 
+    {
+        chr: "4", 
+        "end": 54741413, 
+        "value": "CNV", 
+        "start": 54556414
+    }, 
+    {
+        chr: "4", 
+        "end": 55191413, 
+        "value": "CNV", 
+        "start": 54741414
+    }, 
+    {
+        chr: "4", 
+        "end": 55456413, 
+        "value": "CNV", 
+        "start": 55191414
+    }, 
+    {
+        chr: "7", 
+        "end": 54670213, 
+        "value": "CNV", 
+        "start": 54640214
+    }, 
+    {
+        chr: "7", 
+        "end": 54705213, 
+        "value": "CNV", 
+        "start": 54670214
+    }, 
+    {
+        chr: "7", 
+        "end": 54750213, 
+        "value": "CNV", 
+        "start": 54705214
+    }, 
+    {
+        chr: "7", 
+        "end": 54765213, 
+        "value": "CNV", 
+        "start": 54750214
+    }, 
+    {
+        chr: "7", 
+        "end": 54820213, 
+        "value": "CNV", 
+        "start": 54765214
+    }, 
+    {
+        chr: "7", 
+        "end": 54835213, 
+        "value": "CNV", 
+        "start": 54820214
+    }, 
+    {
+        chr: "7", 
+        "end": 54890213, 
+        "value": "CNV", 
+        "start": 54835214
+    }, 
+    {
+        chr: "7", 
+        "end": 54935213, 
+        "value": "CNV", 
+        "start": 54890214
+    }, 
+    {
+        chr: "7", 
+        "end": 55190213, 
+        "value": "CNV", 
+        "start": 54935214
+    }, 
+    {
+        chr: "7", 
+        "end": 55250213, 
+        "value": "CNV", 
+        "start": 55190214
+    }, 
+    {
+        chr: "7", 
+        "end": 55260213, 
+        "value": "CNV", 
+        "start": 55250214
+    }, 
+    {
+        chr: "7", 
+        "end": 55315213, 
+        "value": "CNV", 
+        "start": 55260214
+    }, 
+    {
+        chr: "7", 
+        "end": 55350213, 
+        "value": "CNV", 
+        "start": 55315214
+    }, 
+    {
+        chr: "7", 
+        "end": 55440213, 
+        "value": "CNV", 
+        "start": 55350214
+    }, 
+    {
+        chr: "7", 
+        "end": 55510213, 
+        "value": "CNV", 
+        "start": 55440214
+    }, 
+    {
+        chr: "7", 
+        "end": 55630213, 
+        "value": "CNV", 
+        "start": 55510214
+    }, 
+    {
+        chr: "9", 
+        "end": 21063131, 
+        "value": "CNV", 
+        "start": 19508132
+    }, 
+    {
+        chr: "9", 
+        "end": 21228131, 
+        "value": "CNV", 
+        "start": 21123132
+    }, 
+    {
+        chr: "9", 
+        "end": 21698131, 
+        "value": "CNV", 
+        "start": 21228132
+    }, 
+    {
+        chr: "9", 
+        "end": 21733131, 
+        "value": "CNV", 
+        "start": 21698132
+    }, 
+    {
+        chr: "9", 
+        "end": 21753131, 
+        "value": "CNV", 
+        "start": 21733132
+    }, 
+    {
+        chr: "9", 
+        "end": 21768131, 
+        "value": "CNV", 
+        "start": 21753132
+    }, 
+    {
+        chr: "9", 
+        "end": 21818131, 
+        "value": "CNV", 
+        "start": 21793132
+    }, 
+    {
+        chr: "9", 
+        "end": 21843131, 
+        "value": "CNV", 
+        "start": 21818132
+    }, 
+    {
+        chr: "9", 
+        "end": 21898131, 
+        "value": "CNV", 
+        "start": 21888132
+    }, 
+    {
+        chr: "9", 
+        "end": 21933131, 
+        "value": "CNV", 
+        "start": 21898132
+    }, 
+    {
+        chr: "9", 
+        "end": 22078131, 
+        "value": "CNV", 
+        "start": 22008132
+    }, 
+    {
+        chr: "9", 
+        "end": 26643131, 
+        "value": "CNV", 
+        "start": 26033132
+    }, 
+    {
+        chr: "12", 
+        "end": 56527014, 
+        "value": "CTDSP2", 
+        "start": 56499976
+    }, 
+    {
+        chr: "17", 
+        "end": 58877454, 
+        "value": "CYB561", 
+        "start": 58863396
+    }, 
+    {
+        chr: "1", 
+        "end": 201203027, 
+        "value": "CYB5R1", 
+        "start": 201197624
+    }, 
+    {
+        chr: "10", 
+        "end": 104587280, 
+        "value": "CYP17A1", 
+        "start": 104580277
+    }, 
+    {
+        chr: "2", 
+        "end": 219388260, 
+        "value": "CYP27A1", 
+        "start": 219354715
+    }, 
+    {
+        chr: "12", 
+        "end": 56447243, 
+        "value": "CYP27B1", 
+        "start": 56442383
+    }, 
+    {
+        chr: "3", 
+        "end": 184181020, 
+        "value": "DCUN1D1", 
+        "start": 184143252
+    }, 
+    {
+        chr: "1", 
+        "end": 20860624, 
+        "value": "DDOST", 
+        "start": 20850846
+    }, 
+    {
+        chr: "Y", 
+        "end": 13541784, 
+        "value": "DDX3Y", 
+        "start": 13526092
+    }, 
+    {
+        chr: "8", 
+        "end": 6771008, 
+        "value": "DEFA6", 
+        "start": 6769628
+    }, 
+    {
+        chr: "2", 
+        "end": 219999705, 
+        "value": "DES", 
+        "start": 219991342
+    }, 
+    {
+        chr: "14", 
+        "end": 79747596, 
+        "value": "DIO2", 
+        "start": 79733621
+    }, 
+    {
+        chr: "13", 
+        "end": 49577434, 
+        "value": "DLEU1", 
+        "start": 49554414
+    }, 
+    {
+        chr: "3", 
+        "end": 185374008, 
+        "value": "DVL3", 
+        "start": 185355977
+    }, 
+    {
+        chr: "X", 
+        "end": 37591833, 
+        "value": "DYNLT3", 
+        "start": 37583033
+    }, 
+    {
+        chr: "11", 
+        "end": 65396916, 
+        "value": "EFEMP2", 
+        "start": 65390487
+    }, 
+    {
+        chr: "7", 
+        "end": 55242525, 
+        "value": "EGFR", 
+        "start": 55054218
+    }, 
+    {
+        chr: "Y", 
+        "end": 21164428, 
+        "value": "EIF1AY", 
+        "start": 21146998
+    }, 
+    {
+        chr: "3", 
+        "end": 185345793, 
+        "value": "EIF2B5", 
+        "start": 185335503
+    }, 
+    {
+        chr: "3", 
+        "end": 172109120, 
+        "value": "EIF5A2", 
+        "start": 172088897
+    }, 
+    {
+        chr: "16", 
+        "end": 10582040, 
+        "value": "EMP2", 
+        "start": 10529780
+    }, 
+    {
+        chr: "1", 
+        "end": 8861367, 
+        "value": "ENO1", 
+        "start": 8843649
+    }, 
+    {
+        chr: "3", 
+        "end": 136461995, 
+        "value": "EPHB1", 
+        "start": 135996788
+    }, 
+    {
+        chr: "1", 
+        "end": 202387930, 
+        "value": "ETNK2", 
+        "start": 202366812
+    }, 
+    {
+        chr: "4", 
+        "end": 56466001, 
+        "value": "EXOC1", 
+        "start": 56414572
+    }, 
+    {
+        chr: "8", 
+        "end": 82359563, 
+        "value": "FABP5", 
+        "start": 82355339
+    }, 
+    {
+        chr: "2", 
+        "end": 95442606, 
+        "value": "FAHD2A", 
+        "start": 95432174
+    }, 
+    {
+        chr: "12", 
+        "end": 56462591, 
+        "value": "FAM119B", 
+        "start": 56452649
+    }, 
+    {
+        chr: "14", 
+        "end": 85164023, 
+        "value": "FLRT2", 
+        "start": 85066240
+    }, 
+    {
+        chr: "12", 
+        "end": 68259829, 
+        "value": "FRS2", 
+        "start": 68150395
+    }, 
+    {
+        chr: "5", 
+        "end": 132228376, 
+        "value": "GDF9", 
+        "start": 132224776
+    }, 
+    {
+        chr: "22", 
+        "end": 23354972, 
+        "value": "GGT1", 
+        "start": 23329123
+    }, 
+    {
+        chr: "5", 
+        "end": 42757683, 
+        "value": "GHR", 
+        "start": 42459782
+    }, 
+    {
+        chr: "8", 
+        "end": 145555754, 
+        "value": "GPR172A", 
+        "start": 145553032
+    }, 
+    {
+        chr: "1", 
+        "end": 26361706, 
+        "value": "GRRP1", 
+        "start": 26358097
+    }, 
+    {
+        chr: "22", 
+        "end": 22714284, 
+        "value": "GSTT1", 
+        "start": 22706138
+    }, 
+    {
+        chr: "X", 
+        "end": 2810861, 
+        "value": "GYG2", 
+        "start": 2756862
+    }, 
+    {
+        chr: "19", 
+        "end": 51538530, 
+        "value": "HIF3A", 
+        "start": 51498715
+    }, 
+    {
+        chr: "7", 
+        "end": 27102150, 
+        "value": "HOXA1", 
+        "start": 27099138
+    }, 
+    {
+        chr: "10", 
+        "end": 103817783, 
+        "value": "HPS6", 
+        "start": 103815136
+    }, 
+    {
+        chr: "9", 
+        "end": 27052931, 
+        "value": "IFT74", 
+        "start": 26937309
+    }, 
+    {
+        chr: "12", 
+        "end": 64934659, 
+        "value": "IRAK3", 
+        "start": 64869244
+    }, 
+    {
+        chr: "19", 
+        "end": 51081216, 
+        "value": "IRF2BP1", 
+        "start": 51078705
+    }, 
+    {
+        chr: "12", 
+        "end": 107487289, 
+        "value": "ISCU", 
+        "start": 107480423
+    }, 
+    {
+        chr: "19", 
+        "end": 53661179, 
+        "value": "KCNJ14", 
+        "start": 53656317
+    }, 
+    {
+        chr: "1", 
+        "end": 3653797, 
+        "value": "KIAA0495", 
+        "start": 3642408
+    }, 
+    {
+        chr: "1", 
+        "end": 10364248, 
+        "value": "KIF1B", 
+        "start": 10193350
+    }, 
+    {
+        chr: "X", 
+        "end": 69557498, 
+        "value": "KIF4A", 
+        "start": 69426603
+    }, 
+    {
+        chr: "4", 
+        "end": 55301638, 
+        "value": "KIT", 
+        "start": 55218851
+    }, 
+    {
+        chr: "9", 
+        "end": 21325429, 
+        "value": "KLHL9", 
+        "start": 21321017
+    }, 
+    {
+        chr: "13", 
+        "end": 49265058, 
+        "value": "KPNA3", 
+        "start": 49171444
+    }, 
+    {
+        chr: "17", 
+        "end": 36834348, 
+        "value": "KRT37", 
+        "start": 36830334
+    }, 
+    {
+        chr: "7", 
+        "end": 55468929, 
+        "value": "LANCL2", 
+        "start": 55400634
+    }, 
+    {
+        chr: "3", 
+        "end": 45565332, 
+        "value": "LARS2", 
+        "start": 45405078
+    }, 
+    {
+        chr: "4", 
+        "end": 1827772, 
+        "value": "LETM1", 
+        "start": 1783003
+    }, 
+    {
+        chr: "1", 
+        "end": 204852527, 
+        "value": "LGTN", 
+        "start": 204831597
+    }, 
+    {
+        chr: "19", 
+        "end": 59542233, 
+        "value": "LILRA4", 
+        "start": 59536503
+    }, 
+    {
+        chr: "18", 
+        "end": 45373276, 
+        "value": "LIPG", 
+        "start": 45342424
+    }, 
+    {
+        chr: "16", 
+        "end": 11588823, 
+        "value": "LITAF", 
+        "start": 11549082
+    }, 
+    {
+        chr: "17", 
+        "end": 53700877, 
+        "value": "LPO", 
+        "start": 53670785
+    }, 
+    {
+        chr: "17", 
+        "end": 11987776, 
+        "value": "MAP2K4", 
+        "start": 11864859
+    }, 
+    {
+        chr: "6", 
+        "end": 137155349, 
+        "value": "MAP3K5", 
+        "start": 136919879
+    }, 
+    {
+        chr: "3", 
+        "end": 184300059, 
+        "value": "MCCC1", 
+        "start": 184215699
+    }, 
+    {
+        chr: "12", 
+        "end": 67525478, 
+        "value": "MDM2", 
+        "start": 67488237
+    }, 
+    {
+        chr: "1", 
+        "end": 202793870, 
+        "value": "MDM4", 
+        "start": 202752133
+    }, 
+    {
+        chr: "6", 
+        "end": 46915478, 
+        "value": "MEP1A", 
+        "start": 46869052
+    }, 
+    {
+        chr: "12", 
+        "end": 56452181, 
+        "value": "METTL1", 
+        "start": 56448617
+    }, 
+    {
+        chr: "10", 
+        "end": 131455773, 
+        "value": "MGMT", 
+        "start": 131155443
+    }, 
+    {
+        chr: "9", 
+        "end": 20612514, 
+        "value": "MLLT3", 
+        "start": 20334967
+    }, 
+    {
+        chr: "22", 
+        "end": 26527486, 
+        "value": "MN1", 
+        "start": 26474264
+    }, 
+    {
+        chr: "13", 
+        "end": 19145598, 
+        "value": "MPHOSPH8", 
+        "start": 19105787
+    }, 
+    {
+        chr: "9", 
+        "end": 21855969, 
+        "value": "MTAP", 
+        "start": 21792634
+    }, 
+    {
+        chr: "15", 
+        "end": 50375287, 
+        "value": "MYO5C", 
+        "start": 50271808
+    }, 
+    {
+        chr: "10", 
+        "end": 103568306, 
+        "value": "METH", 
+        "start": 103568306
+    }, 
+    {
+        chr: "10", 
+        "end": 104603918, 
+        "value": "METH", 
+        "start": 104603918
+    }, 
+    {
+        chr: "10", 
+        "end": 131155565, 
+        "value": "METH", 
+        "start": 131155565
+    }, 
+    {
+        chr: "10", 
+        "end": 53129542, 
+        "value": "METH", 
+        "start": 53129542
+    }, 
+    {
+        chr: "11", 
+        "end": 107843372, 
+        "value": "METH", 
+        "start": 107843372
+    }, 
+    {
+        chr: "11", 
+        "end": 110675314, 
+        "value": "METH", 
+        "start": 110675314
+    }, 
+    {
+        chr: "11", 
+        "end": 112690747, 
+        "value": "METH", 
+        "start": 112690747
+    }, 
+    {
+        chr: "11", 
+        "end": 113776289, 
+        "value": "METH", 
+        "start": 113776289
+    }, 
+    {
+        chr: "11", 
+        "end": 113776321, 
+        "value": "METH", 
+        "start": 113776321
+    }, 
+    {
+        chr: "11", 
+        "end": 12089187, 
+        "value": "METH", 
+        "start": 12089187
+    }, 
+    {
+        chr: "11", 
+        "end": 122259187, 
+        "value": "METH", 
+        "start": 122259187
+    }, 
+    {
+        chr: "11", 
+        "end": 605519, 
+        "value": "METH", 
+        "start": 605519
+    }, 
+    {
+        chr: "11", 
+        "end": 6298471, 
+        "value": "METH", 
+        "start": 6298471
+    }, 
+    {
+        chr: "11", 
+        "end": 68573027, 
+        "value": "METH", 
+        "start": 68573027
+    }, 
+    {
+        chr: "11", 
+        "end": 7230074, 
+        "value": "METH", 
+        "start": 7230074
+    }, 
+    {
+        chr: "12", 
+        "end": 10927484, 
+        "value": "METH", 
+        "start": 10927484
+    }, 
+    {
+        chr: "12", 
+        "end": 118799545, 
+        "value": "METH", 
+        "start": 118799545
+    }, 
+    {
+        chr: "12", 
+        "end": 13045174, 
+        "value": "METH", 
+        "start": 13045174
+    }, 
+    {
+        chr: "12", 
+        "end": 131974492, 
+        "value": "METH", 
+        "start": 131974492
+    }, 
+    {
+        chr: "12", 
+        "end": 38785529, 
+        "value": "METH", 
+        "start": 38785529
+    }, 
+    {
+        chr: "12", 
+        "end": 54904421, 
+        "value": "METH", 
+        "start": 54904421
+    }, 
+    {
+        chr: "12", 
+        "end": 54904463, 
+        "value": "METH", 
+        "start": 54904463
+    }, 
+    {
+        chr: "12", 
+        "end": 54904481, 
+        "value": "METH", 
+        "start": 54904481
+    }, 
+    {
+        chr: "14", 
+        "end": 23633418, 
+        "value": "METH", 
+        "start": 23633418
+    }, 
+    {
+        chr: "15", 
+        "end": 37660352, 
+        "value": "METH", 
+        "start": 37660352
+    }, 
+    {
+        chr: "15", 
+        "end": 72805581, 
+        "value": "METH", 
+        "start": 72805581
+    }, 
+    {
+        chr: "15", 
+        "end": 87239675, 
+        "value": "METH", 
+        "start": 87239675
+    }, 
+    {
+        chr: "15", 
+        "end": 98091028, 
+        "value": "METH", 
+        "start": 98091028
+    }, 
+    {
+        chr: "16", 
+        "end": 66022208, 
+        "value": "METH", 
+        "start": 66022208
+    }, 
+    {
+        chr: "17", 
+        "end": 43373874, 
+        "value": "METH", 
+        "start": 43373874
+    }, 
+    {
+        chr: "17", 
+        "end": 44846839, 
+        "value": "METH", 
+        "start": 44846839
+    }, 
+    {
+        chr: "17", 
+        "end": 4646593, 
+        "value": "METH", 
+        "start": 4646593
+    }, 
+    {
+        chr: "17", 
+        "end": 4656972, 
+        "value": "METH", 
+        "start": 4656972
+    }, 
+    {
+        chr: "17", 
+        "end": 54642149, 
+        "value": "METH", 
+        "start": 54642149
+    }, 
+    {
+        chr: "17", 
+        "end": 56844634, 
+        "value": "METH", 
+        "start": 56844634
+    }, 
+    {
+        chr: "17", 
+        "end": 9420940, 
+        "value": "METH", 
+        "start": 9420940
+    }, 
+    {
+        chr: "19", 
+        "end": 11311261, 
+        "value": "METH", 
+        "start": 11311261
+    }, 
+    {
+        chr: "19", 
+        "end": 2427129, 
+        "value": "METH", 
+        "start": 2427129
+    }, 
+    {
+        chr: "19", 
+        "end": 42355545, 
+        "value": "METH", 
+        "start": 42355545
+    }, 
+    {
+        chr: "19", 
+        "end": 50110257, 
+        "value": "METH", 
+        "start": 50110257
+    }, 
+    {
+        chr: "19", 
+        "end": 50271381, 
+        "value": "METH", 
+        "start": 50271381
+    }, 
+    {
+        chr: "19", 
+        "end": 51911731, 
+        "value": "METH", 
+        "start": 51911731
+    }, 
+    {
+        chr: "19", 
+        "end": 54682803, 
+        "value": "METH", 
+        "start": 54682803
+    }, 
+    {
+        chr: "19", 
+        "end": 62394509, 
+        "value": "METH", 
+        "start": 62394509
+    }, 
+    {
+        chr: "19", 
+        "end": 62930740, 
+        "value": "METH", 
+        "start": 62930740
+    }, 
+    {
+        chr: "19", 
+        "end": 63679094, 
+        "value": "METH", 
+        "start": 63679094
+    }, 
+    {
+        chr: "19", 
+        "end": 9646779, 
+        "value": "METH", 
+        "start": 9646779
+    }, 
+    {
+        chr: "1", 
+        "end": 109838412, 
+        "value": "METH", 
+        "start": 109838412
+    }, 
+    {
+        chr: "1", 
+        "end": 11646825, 
+        "value": "METH", 
+        "start": 11646825
+    }, 
+    {
+        chr: "1", 
+        "end": 160798143, 
+        "value": "METH", 
+        "start": 160798143
+    }, 
+    {
+        chr: "1", 
+        "end": 19619151, 
+        "value": "METH", 
+        "start": 19619151
+    }, 
+    {
+        chr: "1", 
+        "end": 203064552, 
+        "value": "METH", 
+        "start": 203064552
+    }, 
+    {
+        chr: "1", 
+        "end": 205293187, 
+        "value": "METH", 
+        "start": 205293187
+    }, 
+    {
+        chr: "1", 
+        "end": 208024362, 
+        "value": "METH", 
+        "start": 208024362
+    }, 
+    {
+        chr: "1", 
+        "end": 21489228, 
+        "value": "METH", 
+        "start": 21489228
+    }, 
+    {
+        chr: "1", 
+        "end": 32443544, 
+        "value": "METH", 
+        "start": 32443544
+    }, 
+    {
+        chr: "1", 
+        "end": 32444000, 
+        "value": "METH", 
+        "start": 32444000
+    }, 
+    {
+        chr: "1", 
+        "end": 40193589, 
+        "value": "METH", 
+        "start": 40193589
+    }, 
+    {
+        chr: "1", 
+        "end": 42619064, 
+        "value": "METH", 
+        "start": 42619064
+    }, 
+    {
+        chr: "1", 
+        "end": 46578944, 
+        "value": "METH", 
+        "start": 46578944
+    }, 
+    {
+        chr: "20", 
+        "end": 24397865, 
+        "value": "METH", 
+        "start": 24397865
+    }, 
+    {
+        chr: "20", 
+        "end": 35583164, 
+        "value": "METH", 
+        "start": 35583164
+    }, 
+    {
+        chr: "20", 
+        "end": 36810838, 
+        "value": "METH", 
+        "start": 36810838
+    }, 
+    {
+        chr: "20", 
+        "end": 43874471, 
+        "value": "METH", 
+        "start": 43874471
+    }, 
+    {
+        chr: "20", 
+        "end": 57051541, 
+        "value": "METH", 
+        "start": 57051541
+    }, 
+    {
+        chr: "22", 
+        "end": 16973609, 
+        "value": "METH", 
+        "start": 16973609
+    }, 
+    {
+        chr: "22", 
+        "end": 36710385, 
+        "value": "METH", 
+        "start": 36710385
+    }, 
+    {
+        chr: "22", 
+        "end": 36783033, 
+        "value": "METH", 
+        "start": 36783033
+    }, 
+    {
+        chr: "2", 
+        "end": 163404128, 
+        "value": "METH", 
+        "start": 163404128
+    }, 
+    {
+        chr: "2", 
+        "end": 230988942, 
+        "value": "METH", 
+        "start": 230988942
+    }, 
+    {
+        chr: "2", 
+        "end": 238266206, 
+        "value": "METH", 
+        "start": 238266206
+    }, 
+    {
+        chr: "3", 
+        "end": 127726091, 
+        "value": "METH", 
+        "start": 127726091
+    }, 
+    {
+        chr: "3", 
+        "end": 137167732, 
+        "value": "METH", 
+        "start": 137167732
+    }, 
+    {
+        chr: "3", 
+        "end": 140741121, 
+        "value": "METH", 
+        "start": 140741121
+    }, 
+    {
+        chr: "3", 
+        "end": 143779985, 
+        "value": "METH", 
+        "start": 143779985
+    }, 
+    {
+        chr: "3", 
+        "end": 144090671, 
+        "value": "METH", 
+        "start": 144090671
+    }, 
+    {
+        chr: "3", 
+        "end": 154035779, 
+        "value": "METH", 
+        "start": 154035779
+    }, 
+    {
+        chr: "3", 
+        "end": 198180335, 
+        "value": "METH", 
+        "start": 198180335
+    }, 
+    {
+        chr: "3", 
+        "end": 48317768, 
+        "value": "METH", 
+        "start": 48317768
+    }, 
+    {
+        chr: "4", 
+        "end": 996016, 
+        "value": "METH", 
+        "start": 996016
+    }, 
+    {
+        chr: "5", 
+        "end": 126654456, 
+        "value": "METH", 
+        "start": 126654456
+    }, 
+    {
+        chr: "5", 
+        "end": 131621711, 
+        "value": "METH", 
+        "start": 131621711
+    }, 
+    {
+        chr: "5", 
+        "end": 132177303, 
+        "value": "METH", 
+        "start": 132177303
+    }, 
+    {
+        chr: "5", 
+        "end": 133730487, 
+        "value": "METH", 
+        "start": 133730487
+    }, 
+    {
+        chr: "5", 
+        "end": 133996525, 
+        "value": "METH", 
+        "start": 133996525
+    }, 
+    {
+        chr: "6", 
+        "end": 160131780, 
+        "value": "METH", 
+        "start": 160131780
+    }, 
+    {
+        chr: "6", 
+        "end": 167970692, 
+        "value": "METH", 
+        "start": 167970692
+    }, 
+    {
+        chr: "6", 
+        "end": 7052951, 
+        "value": "METH", 
+        "start": 7052951
+    }, 
+    {
+        chr: "6", 
+        "end": 71333361, 
+        "value": "METH", 
+        "start": 71333361
+    }, 
+    {
+        chr: "7", 
+        "end": 37455100, 
+        "value": "METH", 
+        "start": 37455100
+    }, 
+    {
+        chr: "7", 
+        "end": 44331466, 
+        "value": "METH", 
+        "start": 44331466
+    }, 
+    {
+        chr: "7", 
+        "end": 525526, 
+        "value": "METH", 
+        "start": 525526
+    }, 
+    {
+        chr: "7", 
+        "end": 65217723, 
+        "value": "METH", 
+        "start": 65217723
+    }, 
+    {
+        chr: "8", 
+        "end": 82355364, 
+        "value": "METH", 
+        "start": 82355364
+    }, 
+    {
+        chr: "8", 
+        "end": 86277476, 
+        "value": "METH", 
+        "start": 86277476
+    }, 
+    {
+        chr: "9", 
+        "end": 117956314, 
+        "value": "METH", 
+        "start": 117956314
+    }, 
+    {
+        chr: "9", 
+        "end": 133142352, 
+        "value": "METH", 
+        "start": 133142352
+    }, 
+    {
+        chr: "9", 
+        "end": 21958372, 
+        "value": "METH", 
+        "start": 21958372
+    }, 
+    {
+        chr: "9", 
+        "end": 21958681, 
+        "value": "METH", 
+        "start": 21958681
+    }, 
+    {
+        chr: "9", 
+        "end": 21995563, 
+        "value": "METH", 
+        "start": 21995563
+    }, 
+    {
+        chr: "9", 
+        "end": 21995995, 
+        "value": "METH", 
+        "start": 21995995
+    }, 
+    {
+        chr: "9", 
+        "end": 4480757, 
+        "value": "METH", 
+        "start": 4480757
+    }, 
+    {
+        chr: "X", 
+        "end": 148521080, 
+        "value": "METH", 
+        "start": 148521080
+    }, 
+    {
+        chr: "X", 
+        "end": 48219666, 
+        "value": "METH", 
+        "start": 48219666
+    }, 
+    {
+        chr: "X", 
+        "end": 48915243, 
+        "value": "METH", 
+        "start": 48915243
+    }, 
+    {
+        chr: "X", 
+        "end": 48943549, 
+        "value": "METH", 
+        "start": 48943549
+    }, 
+    {
+        chr: "X", 
+        "end": 54483777, 
+        "value": "METH", 
+        "start": 54483777
+    }, 
+    {
+        chr: "Y", 
+        "end": 19614073, 
+        "value": "METH", 
+        "start": 19614073
+    }, 
+    {
+        chr: "6", 
+        "end": 44341503, 
+        "value": "NFKBIE", 
+        "start": 44333880
+    }, 
+    {
+        chr: "Y", 
+        "end": 15465242, 
+        "value": "NLGN4Y", 
+        "start": 15143881
+    }, 
+    {
+        chr: "3", 
+        "end": 48317852, 
+        "value": "NME6", 
+        "start": 48310592
+    }, 
+    {
+        chr: "20", 
+        "end": 35585504, 
+        "value": "NNAT", 
+        "start": 35583020
+    }, 
+    {
+        chr: "12", 
+        "end": 67422740, 
+        "value": "NUP107", 
+        "start": 67366997
+    }, 
+    {
+        chr: "19", 
+        "end": 15700862, 
+        "value": "OR10H2", 
+        "start": 15699833
+    }, 
+    {
+        chr: "6_qbl_hap2", 
+        "end": 270296, 
+        "value": "OR2W1", 
+        "start": 269333
+    }, 
+    {
+        chr: "12", 
+        "end": 56401605, 
+        "value": "OS9", 
+        "start": 56374004
+    }, 
+    {
+        chr: "4", 
+        "end": 54859169, 
+        "value": "PDGFRA", 
+        "start": 54790020
+    }, 
+    {
+        chr: "8", 
+        "end": 22507755, 
+        "value": "PDLIM2", 
+        "start": 22493928
+    }, 
+    {
+        chr: "5", 
+        "end": 131637044, 
+        "value": "PDLIM4", 
+        "start": 131621249
+    }, 
+    {
+        chr: "11", 
+        "end": 118566142, 
+        "value": "PDZD3", 
+        "start": 118561375
+    }, 
+    {
+        chr: "2", 
+        "end": 216654784, 
+        "value": "PECR", 
+        "start": 216611356
+    }, 
+    {
+        chr: "21", 
+        "end": 44571688, 
+        "value": "PFKL", 
+        "start": 44544352
+    }, 
+    {
+        chr: "19", 
+        "end": 51218396, 
+        "value": "PGLYRP1", 
+        "start": 51214251
+    }, 
+    {
+        chr: "8", 
+        "end": 22145796, 
+        "value": "PHYHIP", 
+        "start": 22133160
+    }, 
+    {
+        chr: "12", 
+        "end": 56283477, 
+        "value": "PIP4K2C", 
+        "start": 56271208
+    }, 
+    {
+        chr: "17", 
+        "end": 6400601, 
+        "value": "PITPNM3", 
+        "start": 6295307
+    }, 
+    {
+        chr: "1", 
+        "end": 202595667, 
+        "value": "PLEKHA6", 
+        "start": 202454603
+    }, 
+    {
+        chr: "9", 
+        "end": 133389014, 
+        "value": "POMT1", 
+        "start": 133368109
+    }, 
+    {
+        chr: "8", 
+        "end": 30789894, 
+        "value": "PPP2CB", 
+        "start": 30762667
+    }, 
+    {
+        chr: "9", 
+        "end": 126992039, 
+        "value": "PPP6C", 
+        "start": 126948672
+    }, 
+    {
+        chr: "11", 
+        "end": 6298316, 
+        "value": "PRKCDBP", 
+        "start": 6296751
+    }, 
+    {
+        chr: "Y", 
+        "end": 7309586, 
+        "value": "PRKY", 
+        "start": 7202012
+    }, 
+    {
+        chr: "8", 
+        "end": 144762927, 
+        "value": "PYCRL", 
+        "start": 144757225
+    }, 
+    {
+        chr: "12", 
+        "end": 55990513, 
+        "value": "R3HDM2", 
+        "start": 55933814
+    }, 
+    {
+        chr: "14", 
+        "end": 101841284, 
+        "value": "RAGE", 
+        "start": 101764930
+    }, 
+    {
+        chr: "13", 
+        "end": 113916197, 
+        "value": "RASA3", 
+        "start": 113765295
+    }, 
+    {
+        chr: "1", 
+        "end": 203357773, 
+        "value": "RBBP5", 
+        "start": 203321894
+    }, 
+    {
+        chr: "11", 
+        "end": 113784845, 
+        "value": "RBM7", 
+        "start": 113776593
+    }, 
+    {
+        chr: "3", 
+        "end": 140741361, 
+        "value": "RBP1", 
+        "start": 140727937
+    }, 
+    {
+        chr: "2", 
+        "end": 20512682, 
+        "value": "RHOB", 
+        "start": 20510315
+    }, 
+    {
+        chr: "13", 
+        "end": 50442595, 
+        "value": "RNASEH2B", 
+        "start": 50381892
+    }, 
+    {
+        chr: "15", 
+        "end": 64584238, 
+        "value": "RPL4", 
+        "start": 64578706
+    }, 
+    {
+        chr: "Y", 
+        "end": 2794997, 
+        "value": "RPS4Y1", 
+        "start": 2769622
+    }, 
+    {
+        chr: "19", 
+        "end": 44567377, 
+        "value": "SAMD4B", 
+        "start": 44524947
+    }, 
+    {
+        chr: "3", 
+        "end": 38967056, 
+        "value": "SCN11A", 
+        "start": 38862263
+    }, 
+    {
+        chr: "11", 
+        "end": 617173, 
+        "value": "SCT", 
+        "start": 616312
+    }, 
+    {
+        chr: "7", 
+        "end": 54794433, 
+        "value": "SEC61G", 
+        "start": 54787433
+    }, 
+    {
+        chr: "20", 
+        "end": 43271828, 
+        "value": "SEMG1", 
+        "start": 43269051
+    }, 
+    {
+        chr: "7", 
+        "end": 35911442, 
+        "value": "SEPT7", 
+        "start": 35807151
+    }, 
+    {
+        chr: "21", 
+        "end": 32026302, 
+        "value": "SFRS15", 
+        "start": 31965183
+    }, 
+    {
+        chr: "4", 
+        "end": 52599242, 
+        "value": "SGCB", 
+        "start": 52581617
+    }, 
+    {
+        chr: "16", 
+        "end": 46976730, 
+        "value": "SIAH1", 
+        "start": 46951954
+    }, 
+    {
+        chr: "19", 
+        "end": 54636620, 
+        "value": "SLC17A7", 
+        "start": 54624467
+    }, 
+    {
+        chr: "3", 
+        "end": 48647930, 
+        "value": "SLC26A6", 
+        "start": 48638159
+    }, 
+    {
+        chr: "20", 
+        "end": 44798392, 
+        "value": "SLC2A10", 
+        "start": 44771685
+    }, 
+    {
+        chr: "12", 
+        "end": 67446120, 
+        "value": "SLC35E3", 
+        "start": 67426202
+    }, 
+    {
+        chr: "11", 
+        "end": 56951629, 
+        "value": "SLC43A3", 
+        "start": 56931002
+    }, 
+    {
+        chr: "12", 
+        "end": 83830737, 
+        "value": "SLC6A15", 
+        "start": 83798761
+    }, 
+    {
+        chr: "15", 
+        "end": 40612548, 
+        "value": "SNAP23", 
+        "start": 40575126
+    }, 
+    {
+        chr: "1", 
+        "end": 202106903, 
+        "value": "SNRPE", 
+        "start": 202097362
+    }, 
+    {
+        chr: "14", 
+        "end": 49767849, 
+        "value": "SOS2", 
+        "start": 49653595
+    }, 
+    {
+        chr: "22", 
+        "end": 36710485, 
+        "value": "SOX10", 
+        "start": 36698264
+    }, 
+    {
+        chr: "2", 
+        "end": 231118561, 
+        "value": "SP100", 
+        "start": 230989114
+    }, 
+    {
+        chr: "X", 
+        "end": 47941143, 
+        "value": "SSX5", 
+        "start": 47930599
+    }, 
+    {
+        chr: "20", 
+        "end": 61755224, 
+        "value": "STMN3", 
+        "start": 61741504
+    }, 
+    {
+        chr: "13", 
+        "end": 74954251, 
+        "value": "TBC1D4", 
+        "start": 74756809
+    }, 
+    {
+        chr: "1", 
+        "end": 150029634, 
+        "value": "TDRKH", 
+        "start": 150012579
+    }, 
+    {
+        chr: "14", 
+        "end": 75517845, 
+        "value": "TGFB3", 
+        "start": 75494194
+    }, 
+    {
+        chr: "4", 
+        "end": 68432311, 
+        "value": "TMPRSS11D", 
+        "start": 68369188
+    }, 
+    {
+        chr: "14", 
+        "end": 21037159, 
+        "value": "TOX4", 
+        "start": 21015174
+    }, 
+    {
+        chr: "17", 
+        "end": 7531588, 
+        "value": "TP53", 
+        "start": 7512444
+    }, 
+    {
+        chr: "12", 
+        "end": 56477637, 
+        "value": "TSFM", 
+        "start": 56462794
+    }, 
+    {
+        chr: "1", 
+        "end": 229768892, 
+        "value": "TSNAX", 
+        "start": 229731021
+    }, 
+    {
+        chr: "12", 
+        "end": 56428293, 
+        "value": "TSPAN31", 
+        "start": 56425050
+    }, 
+    {
+        chr: "11", 
+        "end": 112742324, 
+        "value": "TTC12", 
+        "start": 112690460
+    }, 
+    {
+        chr: "X", 
+        "end": 153368126, 
+        "value": "UBL4A", 
+        "start": 153365249
+    }, 
+    {
+        chr: "1", 
+        "end": 159395270, 
+        "value": "UFC1", 
+        "start": 159390157
+    }, 
+    {
+        chr: "19", 
+        "end": 34395976, 
+        "value": "UQCRFS1", 
+        "start": 34390006
+    }, 
+    {
+        chr: "Y", 
+        "end": 14101944, 
+        "value": "UTY", 
+        "start": 13918782
+    }, 
+    {
+        chr: "11", 
+        "end": 75532930, 
+        "value": "UVRAG", 
+        "start": 75203859
+    }, 
+    {
+        chr: "17", 
+        "end": 8007018, 
+        "value": "VAMP2", 
+        "start": 8003189
+    }, 
+    {
+        chr: "18", 
+        "end": 9950018, 
+        "value": "VAPA", 
+        "start": 9903954
+    }, 
+    {
+        chr: "17", 
+        "end": 564846, 
+        "value": "VPS53", 
+        "start": 358657
+    }, 
+    {
+        chr: "6", 
+        "end": 2730978, 
+        "value": "WRNIP1", 
+        "start": 2710664
+    }, 
+    {
+        chr: "3", 
+        "end": 185013107, 
+        "value": "YEATS2", 
+        "start": 184898299
+    }, 
+    {
+        chr: "12", 
+        "end": 68070843, 
+        "value": "YEATS4", 
+        "start": 68039798
+    }, 
+    {
+        chr: "1", 
+        "end": 202089879, 
+        "value": "ZC3H11A", 
+        "start": 202031373
+    }, 
+    {
+        chr: "5", 
+        "end": 904101, 
+        "value": "ZDHHC11", 
+        "start": 848719
+    }, 
+    {
+        chr: "20", 
+        "end": 61837938, 
+        "value": "ZGPAT", 
+        "start": 61809834
+    }, 
+    {
+        chr: "16", 
+        "end": 3399363, 
+        "value": "ZNF174", 
+        "start": 3391190
+    }, 
+    {
+        chr: "2", 
+        "end": 2314052, 
+        "value": "hsa-miR-124a", 
+        "start": 1771891
+    }, 
+    {
+        chr: "5", 
+        "end": 161259543, 
+        "value": "hsa-miR-129", 
+        "start": 161206774
+    }, 
+    {
+        chr: "13", 
+        "end": 35480953, 
+        "value": "hsa-miR-187", 
+        "start": 35085954
+    }, 
+    {
+        chr: "12", 
+        "end": 52710874, 
+        "value": "hsa-miR-196a", 
+        "start": 52708460
+    }, 
+    {
+        chr: "7", 
+        "end": 27171674, 
+        "value": "hsa-miR-196b", 
+        "start": 27168581
+    }, 
+    {
+        chr: "8", 
+        "end": 25958309, 
+        "value": "hsa-miR-199a*", 
+        "start": 25757489
+    }, 
+    {
+        chr: "3", 
+        "end": 39542861, 
+        "value": "hsa-miR-219", 
+        "start": 39484073
+    }, 
+    {
+        chr: "X", 
+        "end": 150893807, 
+        "value": "hsa-miR-224", 
+        "start": 150872251
+    }, 
+    {
+        chr: "12", 
+        "end": 56768854, 
+        "value": "hsa-miR-26a", 
+        "start": 56588855
+    }, 
+    {
+        chr: "3", 
+        "end": 39542861, 
+        "value": "hsa-miR-338", 
+        "start": 39484073
+    }, 
+    {
+        chr: "11", 
+        "end": 22603507, 
+        "value": "hsa-miR-375", 
+        "start": 22603507
+    }, 
+    {
+        chr: "19", 
+        "end": 9646779, 
+        "value": "hsa-miR-512-3p", 
+        "start": 9646779
+    }, 
+    {
+        chr: "10", 
+        "end": 104603918, 
+        "value": "hsa-miR-518f*", 
+        "start": 104603918
+    }, 
+    {
+        chr: "11", 
+        "end": 68573027, 
+        "value": "hsa-miR-571", 
+        "start": 68573027
+    }, 
+    {
+        chr: "11", 
+        "end": 7230074, 
+        "value": "hsa-miR-590", 
+        "start": 7230074
+    }, 
+    {
+        chr: "14", 
+        "end": 92471393, 
+        "value": "hsa-miR-7", 
+        "start": 92459197
+    }
+];
